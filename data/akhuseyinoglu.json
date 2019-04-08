@@ -1,0 +1,1753 @@
+{
+  version:"0.0.3",
+  context:{ learnerId:"akhuseyinoglu",group:{id:"AALTOSQL194",name:""}},
+  reportLevels:[{id:"p",name:"Progress"},{id:"k",name:"Knowledge"}],
+  resources:[ 
+    {id:"ex",name:"Examples", dim:{w:800,h:420},updateStateOn: {done: false, winClose: true, winCloseIfAct: false}},
+    {id:"Problems",name:"Problems", dim:{w:800,h:420},updateStateOn: {done: false, winClose: true, winCloseIfAct: false}},
+    {id:"ae79",name:"Animated Examples", dim:{w:800,h:420},updateStateOn: {done: false, winClose: true, winCloseIfAct: false}}
+  ],
+  topics:[  
+  {
+    id:"SELECT-FROM",name:"SELECT-FROM",difficulty:0,importance:0,order:10,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection1",name:"Selecting One Attribute",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection1&svc=progvis&svc=masterygrids",kcs:[856,845]},
+        {id:"DataSelection2",name:"Selecting Multiple Attributes",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection2&svc=progvis&svc=masterygrids",kcs:[962,845]},
+        {id:"DataSelection3",name:"Selecting All Attributes",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection3&svc=progvis&svc=masterygrids",kcs:[979,845]},
+        {id:"DataSelection4",name:"Skipping Duplicates",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection4&svc=progvis&svc=masterygrids",kcs:[985,856,845]}
+      ],
+      "Problems":[
+        {id:"SELECT-FROM_question1",name:"SELECT-FROM question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=9&tid=1&svc=progvis&svc=masterygrids",kcs:[979,845]},
+        {id:"SELECT-FROM_question2",name:"SELECT-FROM question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=9&tid=2&svc=progvis&svc=masterygrids",kcs:[856,845]},
+        {id:"SELECT-FROM_question3",name:"SELECT-FROM question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=9&tid=3&svc=progvis&svc=masterygrids",kcs:[962,845]},
+        {id:"SELECT-FROM_question4",name:"SELECT-FROM question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=9&tid=4&svc=progvis&svc=masterygrids",kcs:[1031,856,845]},
+        {id:"SELECT-FROM_question5",name:"SELECT-FROM question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=9&tid=5&svc=progvis&svc=masterygrids",kcs:[962,1031,845]},
+        {id:"SELECT-DISTINCT_question6",name:"SELECT-DISTINCT question6",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=9&tid=6&svc=progvis&svc=masterygrids",kcs:[985,856,845]}
+      ],
+      "ae79":[
+        {id:"SAESelectingOneAttribute",name:"Selecting One Attribute",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAESelectingOneAttribute&svc=masterygrids",kcs:[856,845]},
+        {id:"SAESelectingMultipleAttributes",name:"Selecting Multiple Attributes",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAESelectingMultipleAttributes&svc=masterygrids",kcs:[962,845]},
+        {id:"SAESelectingAllAttributes",name:"Selecting All Attributes",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAESelectingAllAttributes&svc=masterygrids",kcs:[979,845]},
+        {id:"SAESkippingDuplicates",name:"Skipping Duplicates",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAESkippingDuplicates&svc=masterygrids",kcs:[985,856,845]}
+      ]
+    }
+  },
+  {
+    id:"SELECT-FROM-WHERE",name:"SELECT-FROM-WHERE",difficulty:0,importance:0,order:30,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection6",name:"Selection Condition",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection6&svc=progvis&svc=masterygrids",kcs:[863,852,962,975,845]},
+        {id:"DataSelection7",name:"Comparison Condition (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection7&svc=progvis&svc=masterygrids",kcs:[863,975,902,979,845]},
+        {id:"DataSelection8",name:"Comparison Condition (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection8&svc=progvis&svc=masterygrids",kcs:[863,962,1006,975,982,845]},
+        {id:"DataSelection9",name:"Comparison Condition (3)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection9&svc=progvis&svc=masterygrids",kcs:[863,962,975,1005,845]},
+        {id:"DataSelecton11",name:"Multiple Comparisons (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelecton11&svc=progvis&svc=masterygrids",kcs:[945,863,852,1015,975,902,856,845]},
+        {id:"DataSelection13",name:"Multiple Comparisons (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection13&svc=progvis&svc=masterygrids",kcs:[945,863,852,1015,964,962,896]},
+        {id:"DataSelection14",name:"Range Test (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection14&svc=progvis&svc=masterygrids",kcs:[863,912,856,845]},
+        {id:"DataSelection15",name:"Range Test (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection15&svc=progvis&svc=masterygrids",kcs:[863,962,912,1018,845]}
+      ],
+      "Problems":[
+        {id:"SELECT-FROM-WHERE_question1",name:"SELECT-FROM-WHERE question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=1&svc=progvis&svc=masterygrids",kcs:[863,852,975,856,845]},
+        {id:"SELECT-FROM-WHERE_question2",name:"SELECT-FROM-WHERE question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=2&svc=progvis&svc=masterygrids",kcs:[945,863,852,962,845]},
+        {id:"SELECT-FROM-WHERE_question3",name:"SELECT-FROM-WHERE question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=3&svc=progvis&svc=masterygrids",kcs:[945,863,852,1015,962,975,845]},
+        {id:"SELECT-FROM-WHERE_question4",name:"SELECT-FROM-WHERE question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=4&svc=progvis&svc=masterygrids",kcs:[863,975,902,845]},
+        {id:"SELECT-FROM-WHERE_question5",name:"SELECT-FROM-WHERE question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=5&svc=progvis&svc=masterygrids",kcs:[863,975,982,856,845]},
+        {id:"SELECT-FROM-WHERE_question6",name:"SELECT-FROM-WHERE question6",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=6&svc=progvis&svc=masterygrids",kcs:[945,863,852,962,848,845]},
+        {id:"SELECT-FROM-WHERE_question7",name:"SELECT-FROM-WHERE question7",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=7&svc=progvis&svc=masterygrids",kcs:[945,863,1005,856,845]},
+        {id:"SELECT-FROM-WHERE_question8",name:"SELECT-FROM-WHERE question8",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=8&svc=progvis&svc=masterygrids",kcs:[863,1015,962,975,1005,902,845]},
+        {id:"SELECT-FROM-WHERE_question9",name:"SELECT-FROM-WHERE question9",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=11&tid=9&svc=progvis&svc=masterygrids",kcs:[863,852,962,848,975,982,845]}
+      ],
+      "ae79":[
+        {id:"SAESelectionCondition",name:"Selection Condition",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAESelectionCondition&svc=masterygrids",kcs:[863,852,962,975,845]},
+        {id:"SAEComparisonCondition1",name:"Comparison Condition 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEComparisonCondition1&svc=masterygrids",kcs:[863,975,902,979,845]},
+        {id:"SAEComparisonCondition2",name:"Comparison Condition 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEComparisonCondition2&svc=masterygrids",kcs:[863,962,1006,975,982,845]},
+        {id:"SAEComparisonCondition3",name:"Comparison Condition 3",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEComparisonCondition3&svc=masterygrids",kcs:[863,962,975,1005,845]},
+        {id:"SAEMultipleComparisons1",name:"Multiple Comparisons 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEMultipleComparisons1&svc=masterygrids",kcs:[945,863,852,1015,975,902,856,845]},
+        {id:"SAERangeTest1",name:"Range Test 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAERangeTest1&svc=masterygrids",kcs:[863,912,856,845]},
+        {id:"SAERangeTest2",name:"Range Test 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAERangeTest2&svc=masterygrids",kcs:[863,962,912,1018,845]}
+      ]
+    }
+  },
+  {
+    id:"Arithmetic Expressions",name:"Arithmetic Expressions",difficulty:0,importance:0,order:50,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection12",name:"Arithmetic Expression",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection12&svc=progvis&svc=masterygrids",kcs:[962,1006,845]}
+      ],
+      "Problems":[
+        {id:"Arithmetic_Expressions_question1",name:"Arithmetic Expressions question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=10&tid=1&svc=progvis&svc=masterygrids",kcs:[1006,975,856,845]},
+        {id:"Arithmetic_Expressions_question2",name:"Arithmetic Expressions question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=10&tid=2&svc=progvis&svc=masterygrids",kcs:[975,1051,856,845]},
+        {id:"Arithmetic_Expressions_question3",name:"Arithmetic Expressions question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=10&tid=3&svc=progvis&svc=masterygrids",kcs:[962,1006,975,845]},
+        {id:"Arithmetic_Expressions_question4",name:"Arithmetic Expressions question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=10&tid=4&svc=progvis&svc=masterygrids",kcs:[962,1006,975,845]},
+        {id:"Arithmetic_Expressions_question5",name:"Arithmetic Expressions question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=10&tid=5&svc=progvis&svc=masterygrids",kcs:[962,1031,975,1051,845]}
+      ],
+      "ae79":[
+        {id:"SAEArithmeticExpressions",name:"Arithmetic Expressions",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEArithmeticExpressions&svc=masterygrids",kcs:[962,1006,845]}
+      ]
+    }
+  },
+  {
+    id:"Pattern Matching",name:"Pattern Matching",difficulty:0,importance:0,order:70,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection17",name:"String Operation",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection17&svc=progvis&svc=masterygrids",kcs:[945,863,946,856,845]}
+      ],
+      "Problems":[
+        {id:"Pattern_Matching_question1",name:"Pattern Matching question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=12&tid=1&svc=progvis&svc=masterygrids",kcs:[945,863,946,979,845]},
+        {id:"Pattern_Matching_question2",name:"Pattern Matching question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=12&tid=2&svc=progvis&svc=masterygrids",kcs:[945,863,946,856,845]},
+        {id:"Pattern_Matching_question3",name:"Pattern Matching question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=12&tid=3&svc=progvis&svc=masterygrids",kcs:[945,863,962,946,845]},
+        {id:"Pattern_Matching_question4",name:"Pattern Matching question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=12&tid=4&svc=progvis&svc=masterygrids",kcs:[945,863,1015,946,856,845]},
+        {id:"Pattern_Matching_question5",name:"Pattern Matching question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=12&tid=5&svc=progvis&svc=masterygrids",kcs:[945,863,962,848,946,845]}
+      ],
+      "ae79":[
+        {id:"SAEStringOperation",name:"String Operation",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEStringOperation&svc=masterygrids",kcs:[945,863,946,856,845]}
+      ]
+    }
+  },
+  {
+    id:"Multiple Table Queries",name:"Multiple Table Queries",difficulty:0,importance:0,order:80,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection10",name:"Multiple Table Selection (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection10&svc=progvis&svc=masterygrids",kcs:[945,863,852,1015,964,962,840,845]},
+        {id:"DataSelection16",name:"Multiple Table Selection (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection16&svc=progvis&svc=masterygrids",kcs:[863,964,962,840,896,868]}
+      ],
+      "Problems":[
+        {id:"Multiple_Table_question1",name:"Multiple Table question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=13&tid=1&svc=progvis&svc=masterygrids",kcs:[863,852,1015,964,962,840,896,845]},
+        {id:"Multiple_Table_question2",name:"Multiple Table question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=13&tid=2&svc=progvis&svc=masterygrids",kcs:[945,863,852,1015,964,962,840,896,856,845]},
+        {id:"Multiple_Table_question3",name:"Multiple Table question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=13&tid=3&svc=progvis&svc=masterygrids",kcs:[945,863,852,1015,964,962,840,896,856,845]},
+        {id:"Multiple_Table_question4",name:"Multiple Table question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=13&tid=4&svc=progvis&svc=masterygrids",kcs:[945,863,852,1015,964,962,840,896,856,845]},
+        {id:"Multiple_Table_question5",name:"Multiple Table question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=13&tid=5&svc=progvis&svc=masterygrids",kcs:[945,863,852,1015,964,962,840,896,856,845]}
+      ],
+      "ae79":[
+        {id:"SAEMultipleTableSelection1",name:"Multiple Table Selection 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEMultipleTableSelection1&svc=masterygrids",kcs:[945,863,852,1015,964,962,840,845]},
+        {id:"SAEMultipleTableSelection2",name:"Multiple Table Selection 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEMultipleTableSelection2&svc=masterygrids",kcs:[863,964,962,840,896,868]}
+      ]
+    }
+  },
+  {
+    id:"ORDER-BY",name:"ORDER-BY",difficulty:0,importance:0,order:100,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection18",name:"Alphabetic Order",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection18&svc=progvis&svc=masterygrids",kcs:[863,964,906,840,896,985,856,868]}
+      ],
+      "Problems":[
+        {id:"Order-By_question1",name:"Order-By question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=14&tid=1&svc=progvis&svc=masterygrids",kcs:[962,997,979,856,845]},
+        {id:"Order-By_question2",name:"Order-By question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=14&tid=2&svc=progvis&svc=masterygrids",kcs:[945,863,852,997,975,979,856,845]},
+        {id:"Order-By_question3",name:"Order-By question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=14&tid=3&svc=progvis&svc=masterygrids",kcs:[945,863,852,962,911,997,979,856,845]},
+        {id:"Order-By_question4",name:"Order-By question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=14&tid=4&svc=progvis&svc=masterygrids",kcs:[1000,962,906,856,845]}
+      ],
+      "ae79":[
+        {id:"SAEAlphabeticOrder",name:"Alphabetic Order",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEAlphabeticOrder&svc=masterygrids",kcs:[863,964,906,840,896,985,856,868]}
+      ]
+    }
+  },
+  {
+    id:"Set Operations",name:"Set Operations",difficulty:0,importance:0,order:120,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection19",name:"Combining Query Results (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection19&svc=progvis&svc=masterygrids",kcs:[856,837,845]},
+        {id:"DataSelection20",name:"Combining Query Results (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection20&svc=progvis&svc=masterygrids",kcs:[935,856,845]},
+        {id:"DataSelection21",name:"Combining Query Results (3)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection21&svc=progvis&svc=masterygrids",kcs:[956,856,845]},
+        {id:"DataSelection30",name:"Comparing Subquery Results (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection30&svc=progvis&svc=masterygrids",kcs:[945,863,852,902,835,926,856,845]},
+        {id:"DataSelection31",name:"Comparing Subquery Results (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection31&svc=progvis&svc=masterygrids",kcs:[945,863,852,1021,902,835,856,845]}
+      ],
+      "Problems":[
+        {id:"Set_Operations_question1",name:"Set Operations question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=15&tid=1&svc=progvis&svc=masterygrids",kcs:[945,852,962,837,845]},
+        {id:"Set_Operations_question2",name:"Set Operations question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=15&tid=2&svc=progvis&svc=masterygrids",kcs:[945,852,856,845,941]},
+        {id:"Set_Operations_question3",name:"Set Operations question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=15&tid=3&svc=progvis&svc=masterygrids",kcs:[945,852,962,906,837,845]},
+        {id:"Set_Operations_question4",name:"Set Operations question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=15&tid=4&svc=progvis&svc=masterygrids",kcs:[945,852,962,946,837,845]},
+        {id:"Set_Operations_question5",name:"Set Operations question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=15&tid=5&svc=progvis&svc=masterygrids",kcs:[945,852,962,946,845,941]}
+      ],
+      "ae79":[
+        {id:"SAECombiningQueryResult1",name:"Combining Query Result 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAECombiningQueryResult1&svc=masterygrids",kcs:[856,837,845]},
+        {id:"SAECombiningQueryResult2",name:"Combining Query Result 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAECombiningQueryResult2&svc=masterygrids",kcs:[935,856,845]},
+        {id:"SAECombiningQueryResult3",name:"Combining Query Result3",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAECombiningQueryResult3&svc=masterygrids",kcs:[956,856,845]},
+        {id:"SAEComparingSubqueryResults1",name:"Comparing Subquery Results 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEComparingSubqueryResults1&svc=masterygrids",kcs:[945,863,852,902,835,926,856,845]},
+        {id:"SAEComparingSubqueryResults2",name:"Comparing Subquery Results 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEComparingSubqueryResults2&svc=masterygrids",kcs:[945,863,852,1021,902,835,856,845]}
+      ]
+    }
+  },
+  {
+    id:"Sub-Queries",name:"Sub-Queries",difficulty:0,importance:0,order:140,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection28",name:"Nested Subqueries (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection28&svc=progvis&svc=masterygrids",kcs:[863,951,835,985,856,845]},
+        {id:"DataSelection29",name:"Nested Subqueries (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection29&svc=progvis&svc=masterygrids",kcs:[863,951,1013,835,985,856,845]}
+      ],
+      "Problems":[
+        {id:"Sub-Queries_question1",name:"Sub-Queries question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=18&tid=1&svc=progvis&svc=masterygrids",kcs:[863,951,835,985,856,845]},
+        {id:"Sub-Queries_question2",name:"Sub-Queries question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=18&tid=2&svc=progvis&svc=masterygrids",kcs:[863,951,1013,835,985,856,845]},
+        {id:"Sub-Queries_question3",name:"Sub-Queries question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=18&tid=3&svc=progvis&svc=masterygrids",kcs:[945,863,852,902,835,926,856,845]},
+        {id:"Sub-Queries_question4",name:"Sub-Queries question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=18&tid=4&svc=progvis&svc=masterygrids",kcs:[945,863,852,1021,835,982,856,845]},
+        {id:"Sub-Queries_question5",name:"Sub-Queries question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=18&tid=5&svc=progvis&svc=masterygrids",kcs:[873,863,852,962,1031,840,896,902,845,910]}
+      ],
+      "ae79":[
+        {id:"SAENestedSubqueries1",name:"Nested Subqueries 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAENestedSubqueries1&svc=masterygrids",kcs:[863,951,835,985,856,845]},
+        {id:"SAENestedSubqueries2",name:"Nested Subqueries 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAENestedSubqueries2&svc=masterygrids",kcs:[863,951,1013,835,985,856,845]}
+      ]
+    }
+  },
+  {
+    id:"Aggregate Functions",name:"Aggregate Functions",difficulty:0,importance:0,order:160,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection5",name:"Aggregate Functions (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection5&svc=progvis&svc=masterygrids",kcs:[1016,975,856,845]},
+        {id:"DataSelection22",name:"Aggregate Functions (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection22&svc=progvis&svc=masterygrids",kcs:[945,863,852,1016,975,856,845]},
+        {id:"DataSelection23",name:"Aggregate Functions (3)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection23&svc=progvis&svc=masterygrids",kcs:[979,845,910]},
+        {id:"DataSelection24",name:"Aggregate Functions (4)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection24&svc=progvis&svc=masterygrids",kcs:[985,856,845,910]}
+      ],
+      "Problems":[
+        {id:"Aggregate_Functions_question1",name:"Aggregate Functions question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=16&tid=1&svc=progvis&svc=masterygrids",kcs:[945,863,852,1016,840,856,845]},
+        {id:"Aggregate_Functions_question2",name:"Aggregate Functions question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=16&tid=2&svc=progvis&svc=masterygrids",kcs:[960,856,845]},
+        {id:"Aggregate_Functions_question3",name:"Aggregate Functions question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=16&tid=3&svc=progvis&svc=masterygrids",kcs:[863,852,975,957,856,845]},
+        {id:"Aggregate_Functions_question4",name:"Aggregate Functions question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=16&tid=4&svc=progvis&svc=masterygrids",kcs:[945,852,1024,840,856,845]},
+        {id:"Aggregate_Functions_question5",name:"Aggregate Functions question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=16&tid=5&svc=progvis&svc=masterygrids",kcs:[945,852,840,979,856,845,910]}
+      ],
+      "ae79":[
+        {id:"SAEAggregateFunctions1",name:"Aggregate Functions 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEAggregateFunctions1&svc=masterygrids",kcs:[1016,975,856,845]},
+        {id:"SAEAggregateFunctions2",name:"Aggregate Functions 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEAggregateFunctions2&svc=masterygrids",kcs:[945,863,852,1016,975,856,845]},
+        {id:"SAEAggregateFunctions3",name:"Aggregate Functions 3",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEAggregateFunctions3&svc=masterygrids",kcs:[979,845,910]},
+        {id:"SAEAggregateFunctions4",name:"Aggregate Functions 4",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEAggregateFunctions4&svc=masterygrids",kcs:[985,856,845,910]}
+      ]
+    }
+  },
+  {
+    id:"GROUP-BY and HAVING",name:"GROUP-BY and HAVING",difficulty:0,importance:0,order:180,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection25",name:"Grouped Queries",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection25&svc=progvis&svc=masterygrids",kcs:[873,962,1016,975,845]},
+        {id:"DataSelection26",name:"Grouped Queries with Condition",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection26&svc=progvis&svc=masterygrids",kcs:[873,962,1016,975,902,845,942]},
+        {id:"DataSelection32",name:"Aggregating Subquery",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection32&svc=progvis&svc=masterygrids",kcs:[873,1021,924,1016,975,835,856,845,942]},
+        {id:"DataSelection36",name:"Grouping and aggregating (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection36&svc=progvis&svc=masterygrids",kcs:[873,863,852,1015,964,962,840,896,868,910]},
+        {id:"DataSelection37",name:"Grouping and aggregating (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection37&svc=progvis&svc=masterygrids",kcs:[873,863,962,840,902,835,960,982,845,942,910]}
+      ],
+      "Problems":[
+        {id:"Group-By_Having_question1",name:"Group-By & Having question1",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=17&tid=1&svc=progvis&svc=masterygrids",kcs:[873,1016,856,845,942]},
+        {id:"Group-By_Having_question2",name:"Group-By & Having question2",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=17&tid=2&svc=progvis&svc=masterygrids",kcs:[873,1024,856,845,942]},
+        {id:"Group-By_Having_question3",name:"Group-By & Having question3",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=17&tid=3&svc=progvis&svc=masterygrids",kcs:[873,1016,902,856,845,942]},
+        {id:"Group-By_Having_question4",name:"Group-By & Having question4",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=17&tid=4&svc=progvis&svc=masterygrids",kcs:[873,1024,902,856,845,942,910]},
+        {id:"Group-By_Having_question5",name:"Group-By & Having question5",url:"http://adapt2.sis.pitt.edu/sqlknot/index.html?cid=17&tid=5&svc=progvis&svc=masterygrids",kcs:[873,852,840,896,902,856,845,942,910]}
+      ],
+      "ae79":[
+        {id:"SAEGroupQueries",name:"Group Queries",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEGroupQueries&svc=masterygrids",kcs:[873,962,1016,975,845]},
+        {id:"SAEGroupQuerieswithCondition",name:"Group Queries with Condition",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEGroupQuerieswithCondition&svc=masterygrids",kcs:[873,962,1016,975,902,845,942]},
+        {id:"SAEAggregatingSubquery",name:"Aggregating Subquery",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEAggregatingSubquery&svc=masterygrids",kcs:[873,1021,924,1016,975,835,856,845,942]},
+        {id:"SAEGroupingandAggregating1",name:"Grouping and Aggregating 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEGroupingandAggregating1&svc=masterygrids",kcs:[873,863,852,1015,964,962,840,896,868,910]},
+        {id:"SAEGroupingandAggregating2",name:"Grouping and Aggregating 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEGroupingandAggregating2&svc=masterygrids",kcs:[873,863,962,840,902,835,960,982,845,942,910]}
+      ]
+    }
+  },
+  {
+    id:"Table Creation",name:"Table Creation",difficulty:0,importance:0,order:200,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"TableCreation1",name:"Table Creation",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation1&svc=progvis&svc=masterygrids",kcs:[945,1012,963,953,975,853]}
+      ],
+      "Problems":[
+
+      ],
+      "ae79":[
+        {id:"SAECreateTable1",name:"Create Table 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAECreateTable1&svc=masterygrids",kcs:[945,1012,963,953,975,853]}
+      ]
+    }
+  },
+  {
+    id:"Table Deletion and Alteration",name:"Table Deletion and Alteration",difficulty:0,importance:0,order:220,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"TableDrop1",name:"Table Drop",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableDrop1&svc=progvis&svc=masterygrids",kcs:[981,835]},
+        {id:"TableAlteration1",name:"Column Addition",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableAlteration1&svc=progvis&svc=masterygrids",kcs:[1012,899,975,907]},
+        {id:"TableAlteration2",name:"Column Drop",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableAlteration2&svc=progvis&svc=masterygrids",kcs:[842,1012,907]}
+      ],
+      "Problems":[
+
+      ],
+      "ae79":[
+        {id:"SAETableDrop",name:"Table Drop",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAETableDrop&svc=masterygrids",kcs:[981,835]},
+        {id:"SAEColumnAddition",name:"Column Addition",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEColumnAddition&svc=masterygrids",kcs:[1012,899,975,907]},
+        {id:"SAEColumnDrop",name:"Column Drop",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEColumnDrop&svc=masterygrids",kcs:[842,1012,907]}
+      ]
+    }
+  },
+  {
+    id:"Key Constraints",name:"Key Constraints",difficulty:0,importance:0,order:240,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"TableCreation2",name:"Primary Key (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation2&svc=progvis&svc=masterygrids",kcs:[945,1012,952,853]},
+        {id:"TableCreation3",name:"Primary Key and Unique Key",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation3&svc=progvis&svc=masterygrids",kcs:[945,1012,963,952,862,853]},
+        {id:"TableCreation4",name:"Foriegn Key",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation4&svc=progvis&svc=masterygrids",kcs:[945,1012,963,952,953,853]},
+        {id:"TableCreation9",name:"Primary Key (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation9&svc=progvis&svc=masterygrids",kcs:[945,1012,963,952,853]}
+      ],
+      "Problems":[
+
+      ],
+      "ae79":[
+        {id:"SAEPrimaryKey1",name:"Primary Key 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEPrimaryKey1&svc=masterygrids",kcs:[945,1012,952,853]},
+        {id:"SAEPrimaryKeyandUniqueKey",name:"Primary Key and Unique Key",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEPrimaryKeyandUniqueKey&svc=masterygrids",kcs:[945,1012,963,952,862,853]},
+        {id:"SAEForeignKey",name:"Foreign Key",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEForeignKey&svc=masterygrids",kcs:[945,1012,963,952,953,853]},
+        {id:"SAEPrimaryKey2",name:"Primary Key 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEPrimaryKey2&svc=masterygrids",kcs:[945,1012,963,952,853]}
+      ]
+    }
+  },
+  {
+    id:"Tuple Insertion",name:"Tuple Insertion",difficulty:0,importance:0,order:260,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataInsertion1",name:"Inserting Data (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataInsertion1&svc=progvis&svc=masterygrids",kcs:[945,959,1012,948,975]},
+        {id:"DataInsertion2",name:"Inserting Data (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataInsertion2&svc=progvis&svc=masterygrids",kcs:[945,959,1012,948,975]},
+        {id:"DataInsertion3",name:"Inserting Data (3)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataInsertion3&svc=progvis&svc=masterygrids",kcs:[945,852,959,962,835,845]},
+        {id:"DataInsertion4",name:"Inserting Data (4)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataInsertion4&svc=progvis&svc=masterygrids",kcs:[945,852,959,1015,964,962,896,835]}
+      ],
+      "Problems":[
+
+      ],
+      "ae79":[
+        {id:"SAEInsertingData1",name:"Inserting Data 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEInsertingData1&svc=masterygrids",kcs:[945,959,1012,948,975]},
+        {id:"SAEInsertingData3",name:"Inserting Data 3",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEInsertingData3&svc=masterygrids",kcs:[945,852,959,962,835,845]},
+        {id:"SAEInsertingData4",name:"Inserting Data 4",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEInsertingData4&svc=masterygrids",kcs:[945,852,959,1015,964,962,896,835]}
+      ]
+    }
+  },
+  {
+    id:"Tuple Deletion",name:"Tuple Deletion",difficulty:0,importance:0,order:280,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataDeletion1",name:"Deleting Data",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataDeletion1&svc=progvis&svc=masterygrids",kcs:[846]},
+        {id:"DataDeletion2",name:"Deleting with Condition (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataDeletion2&svc=progvis&svc=masterygrids",kcs:[945,846,852,951,835,856,845]},
+        {id:"DataDeletion3",name:"Deleting with Condition (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataDeletion3&svc=progvis&svc=masterygrids",kcs:[846,1016,835,982,856,845]}
+      ],
+      "Problems":[
+
+      ],
+      "ae79":[
+        {id:"SAEDeletingData",name:"Deleting Data",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEDeletingData&svc=masterygrids",kcs:[846]},
+        {id:"SAEDeletingwithCondition1",name:"Deleting with Condition 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEDeletingwithCondition1&svc=masterygrids",kcs:[945,846,852,951,835,856,845]},
+        {id:"SAEDeletingwithCondition2",name:"Deleting with Condition 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEDeletingwithCondition2&svc=masterygrids",kcs:[846,1016,835,982,856,845]}
+      ]
+    }
+  },
+  {
+    id:"Tuple Update",name:"Tuple Update",difficulty:0,importance:0,order:300,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataUpdate3",name:"Updating Data (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataUpdate3&svc=progvis&svc=masterygrids",kcs:[999,1006,975]},
+        {id:"DataUpdate1",name:"Updating Data (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataUpdate1&svc=progvis&svc=masterygrids",kcs:[863,999,924,840,1006,975]},
+        {id:"DataUpdate2",name:"Updating Data (3)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataUpdate2&svc=progvis&svc=masterygrids",kcs:[863,852,999,840,975,883,891]},
+        {id:"DataUpdate4",name:"Updating with condition",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataUpdate4&svc=progvis&svc=masterygrids",kcs:[863,999,951,975]},
+        {id:"DataUpdate5",name:"Updating with subquery",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataUpdate5&svc=progvis&svc=masterygrids",kcs:[863,999,975,902,835,985,883,856,845]}
+      ],
+      "Problems":[
+
+      ],
+      "ae79":[
+        {id:"SAEUpdatingData1",name:"Updating Data 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEUpdatingData1&svc=masterygrids",kcs:[999,1006,975]},
+        {id:"SAEUpdatingData2",name:"Updating Data 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEUpdatingData2&svc=masterygrids",kcs:[863,999,924,840,1006,975]},
+        {id:"SAEUpdatingData3",name:"Updating Data 3",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEUpdatingData3&svc=masterygrids",kcs:[863,852,999,840,975,883,891]},
+        {id:"SAEUpdatingwithCondition",name:"Updating with Condition",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEUpdatingwithCondition&svc=masterygrids",kcs:[863,999,951,975]},
+        {id:"SAEUpdatingwithSubquery",name:"Updating with Subquery",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEUpdatingwithSubquery&svc=masterygrids",kcs:[863,999,951,975,902,835,985,883,856,845]}
+      ]
+    }
+  },
+  {
+    id:"General Constraints",name:"General Constraints",difficulty:0,importance:0,order:320,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"TableCreation7",name:"Assertion Creation (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation7&svc=progvis&svc=masterygrids",kcs:[945,1012,920,952,840,975,835,982,883,856,845,910]},
+        {id:"TableCreation8",name:"Assertion Creation (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation8&svc=progvis&svc=masterygrids",kcs:[887,840,975,982,883,856,845,910]},
+        {id:"TableCreation5",name:"Check Constraint (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation5&svc=progvis&svc=masterygrids",kcs:[945,852,1012,920,952,1018,840,975,1005,835,856,845]},
+        {id:"TableCreation6",name:"Check Constraint (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=TableCreation6&svc=progvis&svc=masterygrids",kcs:[1012,1015,920,924,952,970,975]}
+      ],
+      "Problems":[
+
+      ],
+      "ae79":[
+        {id:"SAEAssertionCreation1",name:"Assertion Creation 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEAssertionCreation1&svc=masterygrids",kcs:[945,1012,920,952,840,975,835,982,883,856,845,910]}
+      ]
+    }
+  },
+  {
+    id:"Derived Relations and Views",name:"Derived Relations and Views",difficulty:0,importance:0,order:360,concepts:[],isVisible:true,
+    timeline:{ covered:false, current:false},
+    activities:{ 
+      "ex":[
+        {id:"DataSelection33",name:"Derived Relations",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection33&svc=progvis&svc=masterygrids",kcs:[873,1033,962,1016,1031,840,902,845]},
+        {id:"DataSelection34",name:"View Creation (1)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection34&svc=progvis&svc=masterygrids",kcs:[964,962,990,896]},
+        {id:"DataSelection35",name:"View Creation (2)",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection35&svc=progvis&svc=masterygrids",kcs:[964,962,990,896,837]},
+        {id:"DataSelection40",name:"Retrieving data from view",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection40&svc=progvis&svc=masterygrids",kcs:[945,863,852,856,845]},
+        {id:"DataSelection41",name:"Aggregating Derived Relations",url:"http://adapt2.sis.pitt.edu/webex/Dissection2?act=DataSelection41&svc=progvis&svc=masterygrids",kcs:[873,863,1033,962,1016,840,835,960]}
+      ],
+      "Problems":[
+
+      ],
+      "ae79":[
+        {id:"SAEDerivedRelations",name:"Derived Relations",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEDerivedRelations&svc=masterygrids",kcs:[873,1033,962,1016,1031,840,902,845]},
+        {id:"SAEViewCreation1",name:"View Creation 1",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEViewCreation1&svc=masterygrids",kcs:[964,962,990,896]},
+        {id:"SAEViewCreation2",name:"View Creation 2",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEViewCreation2&svc=masterygrids",kcs:[964,962,990,896,837]},
+        {id:"SAERetrievingDataFromView",name:"Retrieving Data From View",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAERetrievingDataFromView&svc=masterygrids",kcs:[945,863,852,856,845]},
+        {id:"SAEAggregatingDerivedRelations",name:"Aggregating Derived Relations",url:"http://columbus.exp.sis.pitt.edu/sql_ae/sqlAE.html?act=SAEAggregatingDerivedRelations&svc=masterygrids",kcs:[873,863,852,1033,962,1016,840,835,960]}
+      ]
+    }
+  }
+  ],
+  kcs:[  
+    {"id": 873,"n": "SingleAttributeGrouping", "dn": "SingleAttributeGrouping", "cnt": ["SAEAggregatingSubquery","SAEGroupQuerieswithCondition","Sub-Queries_question5","DataSelection25","DataSelection36","DataSelection26","DataSelection37","Group-By_Having_question1","Group-By_Having_question2","DataSelection32","Group-By_Having_question3","DataSelection33","Group-By_Having_question4","Group-By_Having_question5","SAEAggregatingDerivedRelations","SAEGroupingandAggregating2","DataSelection41","SAEGroupingandAggregating1","SAEGroupQueries","SAEDerivedRelations"], "t": "GROUP-BY and HAVING"},
+    {"id": 945,"n": "StringType", "dn": "StringType", "cnt": ["SAEDeletingwithCondition1","SAEAssertionCreation1","DataSelection31","SAEAggregateFunctions2","Aggregate_Functions_question1","DataSelection40","Aggregate_Functions_question4","Aggregate_Functions_question5","SAEForeignKey","SAEPrimaryKey2","SAEPrimaryKey1","TableCreation1","TableCreation2","Sub-Queries_question3","TableCreation3","TableCreation4","TableCreation5","Sub-Queries_question4","TableCreation7","TableCreation9","SAECreateTable1","SAEMultipleComparisons1","SAEPrimaryKeyandUniqueKey","SAEComparingSubqueryResults2","SAEComparingSubqueryResults1","DataSelection17","DataSelection13","SAERetrievingDataFromView","DataSelection10","SAEInsertingData1","Set_Operations_question5","Set_Operations_question4","SAEInsertingData3","SAEMultipleTableSelection1","Set_Operations_question1","SAEInsertingData4","Set_Operations_question3","Set_Operations_question2","DataDeletion2","SELECT-FROM-WHERE_question6","SELECT-FROM-WHERE_question7","SELECT-FROM-WHERE_question2","SELECT-FROM-WHERE_question3","DataInsertion4","Order-By_question3","Pattern_Matching_question2","DataInsertion3","Pattern_Matching_question1","DataInsertion2","Pattern_Matching_question4","SAEStringOperation","DataInsertion1","Pattern_Matching_question3","Pattern_Matching_question5","DataSelection22","Order-By_question2","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","DataSelection30","Multiple_Table_question4","DataSelecton11"], "t": "Table Creation"},
+    {"id": 863,"n": "WhereClause", "dn": "WhereClause", "cnt": ["SAERangeTest2","SAERangeTest1","SAENestedSubqueries1","SAENestedSubqueries2","DataSelection36","SAEUpdatingData3","DataSelection37","DataSelection38","DataSelection31","SAEAggregateFunctions2","SAEUpdatingData2","SAEAggregatingDerivedRelations","Aggregate_Functions_question1","DataSelection40","DataSelection41","SAECheckingNullValues","Aggregate_Functions_question3","Sub-Queries_question1","Sub-Queries_question3","Sub-Queries_question2","Sub-Queries_question5","Sub-Queries_question4","SAEMultipleComparisons1","SAEUpdatingwithCondition","SAEComparingSubqueryResults2","SAEComparingSubqueryResults1","DataSelection17","DataSelection18","DataUpdate5","DataUpdate4","DataSelection13","DataSelection7","SAERetrievingDataFromView","DataSelection14","DataSelection6","DataSelection15","DataSelection9","DataSelection16","DataSelection8","DataSelection10","SAEUpdatingwithSubquery","SAEMultipleTableSelection1","SAEMultipleTableSelection2","SAESelectionCondition","SELECT-FROM-WHERE_question6","SELECT-FROM-WHERE_question7","SELECT-FROM-WHERE_question4","SELECT-FROM-WHERE_question5","DataSelection28","SAEComparisonCondition3","SELECT-FROM-WHERE_question2","DataSelection29","SELECT-FROM-WHERE_question3","SELECT-FROM-WHERE_question1","Order-By_question3","Pattern_Matching_question2","Pattern_Matching_question1","Pattern_Matching_question4","SAEComparisonCondition1","SAEStringOperation","DataSelection27","Pattern_Matching_question3","SAEComparisonCondition2","Pattern_Matching_question5","DataSelection22","SELECT-FROM-WHERE_question8","Order-By_question2","SELECT-FROM-WHERE_question9","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","SAEGroupingandAggregating2","DataSelection30","Multiple_Table_question4","SAEGroupingandAggregating1","Multiple_Table_question1","SAEAlphabeticOrder","DataUpdate2","DataUpdate1","DataSelecton11"], "t": "SELECT-FROM-WHERE"},
+    {"id": 842,"n": "DropColumnClause", "dn": "DropColumnClause", "cnt": ["SAEColumnDrop","TableAlteration2"], "t": "Table Deletion and Alteration"},
+    {"id": 1037,"n": "ReferentialAction", "dn": "ReferentialAction", "cnt": ["DataSelection38"], "t": "Key Constraints"},
+    {"id": 846,"n": "DeleteStatement", "dn": "DeleteStatement", "cnt": ["SAEDeletingwithCondition1","SAEDeletingwithCondition2","SAEDeletingData","DataDeletion1","DataDeletion2","DataDeletion3"], "t": "Tuple Deletion"},
+    {"id": 852,"n": "EqualComparison", "dn": "EqualComparison", "cnt": ["SAEDeletingwithCondition1","DataSelection36","SAEUpdatingData3","DataSelection38","DataSelection31","SAEAggregateFunctions2","SAEAggregatingDerivedRelations","Aggregate_Functions_question1","DataSelection40","Aggregate_Functions_question4","Aggregate_Functions_question5","Aggregate_Functions_question3","Sub-Queries_question3","Sub-Queries_question5","TableCreation5","Sub-Queries_question4","SAEMultipleComparisons1","SAEComparingSubqueryResults2","SAEComparingSubqueryResults1","DataSelection13","SAERetrievingDataFromView","DataSelection6","DataSelection10","Set_Operations_question5","Set_Operations_question4","SAEInsertingData3","SAEMultipleTableSelection1","Set_Operations_question1","SAEInsertingData4","Set_Operations_question3","Set_Operations_question2","SAESelectionCondition","DataDeletion2","SELECT-FROM-WHERE_question6","SELECT-FROM-WHERE_question2","SELECT-FROM-WHERE_question3","SELECT-FROM-WHERE_question1","DataInsertion4","Order-By_question3","DataInsertion3","DataSelection22","Group-By_Having_question5","Order-By_question2","SELECT-FROM-WHERE_question9","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","DataSelection30","Multiple_Table_question4","SAEGroupingandAggregating1","Multiple_Table_question1","DataUpdate2","DataSelecton11"], "t": "General Constraints"},
+    {"id": 959,"n": "InsertStatement", "dn": "InsertStatement", "cnt": ["SAEInsertingData1","SAEInsertingData3","DataInsertion4","DataInsertion3","SAEInsertingData4","DataInsertion2","DataInsertion1"], "t": "Tuple Insertion"},
+    {"id": 956,"n": "ExceptOperation", "dn": "ExceptOperation", "cnt": ["SAECombiningQueryResult3","DataSelection21"], "t": "Set Operations"},
+    {"id": 1033,"n": "DerivedTable", "dn": "DerivedTable", "cnt": ["DataSelection41","SAEDerivedRelations","DataSelection33","SAEAggregatingDerivedRelations"], "t": "Derived Relations and Views"},
+    {"id": 935,"n": "IntersectOperation", "dn": "IntersectOperation", "cnt": ["SAECombiningQueryResult2","DataSelection20"], "t": "Set Operations"},
+    {"id": 981,"n": "DeleteTableClause", "dn": "Delete Table", "cnt": ["TableDrop1","SAETableDrop"], "t": "Table Deletion and Alteration"},
+    {"id": 1035,"n": "IsNullPredicate", "dn": "IsNullPredicate", "cnt": ["SAECheckingNullValues","DataSelection27"], "t": ""},
+    {"id": 1012,"n": "AttributeName", "dn": "AttributeName", "cnt": ["SAEForeignKey","SAEPrimaryKey2","SAEPrimaryKey1","TableCreation1","SAEAssertionCreation1","TableCreation2","TableCreation3","TableCreation4","TableCreation5","TableCreation6","DataInsertion2","TableCreation7","DataInsertion1","TableCreation9","SAECreateTable1","TableAlteration1","TableAlteration2","SAEColumnAddition","SAEInsertingData1","SAEColumnDrop","SAEPrimaryKeyandUniqueKey"], "t": "Table Creation"},
+    {"id": 1015,"n": "AndLogicalOperator", "dn": "AndLogicalOperator", "cnt": ["SELECT-FROM-WHERE_question3","DataInsertion4","DataSelection13","DataSelection36","TableCreation6","Pattern_Matching_question4","DataSelection10","SELECT-FROM-WHERE_question8","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","Multiple_Table_question4","SAEGroupingandAggregating1","Multiple_Table_question1","SAEMultipleTableSelection1","SAEInsertingData4","DataSelecton11","SAEMultipleComparisons1"], "t": "General Constraints"},
+    {"id": 1000,"n": "OrderingByMultipleAttributes", "dn": "OrderingByMultipleAttributes", "cnt": ["Order-By_question4"], "t": "ORDER-BY"},
+    {"id": 1021,"n": "AllPredicate", "dn": "AllResultsWithComparisonSelection", "cnt": ["SAEAggregatingSubquery","SAEComparingSubqueryResults2","Sub-Queries_question4","DataSelection31","DataSelection32"], "t": "GROUP-BY and HAVING"},
+    {"id": 964,"n": "EquiWhereJoin", "dn": "EquiWhereJoin", "cnt": ["DataSelection18","DataInsertion4","DataSelection13","DataSelection35","DataSelection36","DataSelection16","DataSelection10","DataSelection34","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","SAEViewCreation2","Multiple_Table_question4","SAEGroupingandAggregating1","SAEViewCreation1","Multiple_Table_question1","SAEMultipleTableSelection1","SAEAlphabeticOrder","SAEMultipleTableSelection2","SAEInsertingData4"], "t": "SELECT-FROM-WHERE"},
+    {"id": 962,"n": "MultipleAttributeSelection", "dn": "MultipleAttributeSelection", "cnt": ["SAERangeTest2","DataSelection35","DataSelection36","DataSelection37","DataSelection33","DataSelection34","SAEAggregatingDerivedRelations","DataSelection41","SAEDerivedRelations","Sub-Queries_question5","SAEViewCreation2","SAEViewCreation1","SAEGroupQuerieswithCondition","DataSelection13","DataSelection6","DataSelection15","DataSelection9","DataSelection16","DataSelection8","DataSelection10","DataSelection2","DataSelection12","Arithmetic_Expressions_question3","Arithmetic_Expressions_question4","Arithmetic_Expressions_question5","Set_Operations_question5","Set_Operations_question4","SAEInsertingData3","SAEMultipleTableSelection1","SAEMultipleTableSelection2","Set_Operations_question1","SAEInsertingData4","Set_Operations_question3","SAEArithmeticExpressions","SAESelectionCondition","SELECT-FROM-WHERE_question6","SAEComparisonCondition3","SELECT-FROM-WHERE_question2","SELECT-FROM-WHERE_question3","DataInsertion4","Order-By_question3","DataInsertion3","DataSelection25","Order-By_question4","SELECT-FROM_question3","DataSelection26","Pattern_Matching_question3","SAEComparisonCondition2","SELECT-FROM_question5","Pattern_Matching_question5","Order-By_question1","SELECT-FROM-WHERE_question8","SELECT-FROM-WHERE_question9","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","SAEGroupingandAggregating2","Multiple_Table_question4","SAEGroupingandAggregating1","Multiple_Table_question1","SAEGroupQueries","SAESelectingMultipleAttributes"], "t": "SELECT-FROM"},
+    {"id": 948,"n": "ValuesClause", "dn": "ValuesClause", "cnt": ["SAEInsertingData1","DataInsertion2","DataInsertion1"], "t": "Tuple Insertion"},
+    {"id": 920,"n": "CheckConstraint", "dn": "CheckConstraint", "cnt": ["SAEAssertionCreation1","TableCreation5","TableCreation6","TableCreation7"], "t": "General Constraints"},
+    {"id": 963,"n": "NotNullConstraint", "dn": "Not Null", "cnt": ["SAEForeignKey","SAEPrimaryKey2","TableCreation1","TableCreation3","TableCreation4","TableCreation9","SAECreateTable1","SAEPrimaryKeyandUniqueKey"], "t": "Table Creation"},
+    {"id": 1024,"n": "SumFunction", "dn": "SumFunction", "cnt": ["Aggregate_Functions_question4","Group-By_Having_question2","Group-By_Having_question4"], "t": "Aggregate Functions"},
+    {"id": 848,"n": "OrLogicalOperator", "dn": "OrLogicalOperator", "cnt": ["SELECT-FROM-WHERE_question6","Pattern_Matching_question5","SELECT-FROM-WHERE_question9"], "t": "SELECT-FROM-WHERE"},
+    {"id": 999,"n": "UpdateStatement", "dn": "UpdateStatement", "cnt": ["SAEUpdatingwithCondition","SAEUpdatingwithSubquery","DataUpdate5","DataUpdate4","DataUpdate3","DataUpdate2","DataUpdate1","SAEUpdatingData3","SAEUpdatingData2","SAEUpdatingData1"], "t": "Tuple Update"},
+    {"id": 990,"n": "CreateViewStatement", "dn": "CreateViewStatement", "cnt": ["SAEViewCreation2","SAEViewCreation1","DataSelection35","DataSelection34"], "t": "Derived Relations and Views"},
+    {"id": 912,"n": "BetweenPredicate", "dn": "BetweenPredicate", "cnt": ["SAERangeTest2","SAERangeTest1","DataSelection14","DataSelection15"], "t": "SELECT-FROM-WHERE"},
+    {"id": 911,"n": "DescendingOrdering", "dn": "DescendingOrdering", "cnt": ["Order-By_question3"], "t": "ORDER-BY"},
+    {"id": 997,"n": "OrderingBySingleAttribute", "dn": "OrderingBySingleAttribute", "cnt": ["Order-By_question3","Order-By_question1","Order-By_question2"], "t": "ORDER-BY"},
+    {"id": 887,"n": "Assertion", "dn": "Assertion", "cnt": ["TableCreation8"], "t": "General Constraints"},
+    {"id": 906,"n": "AscendingOrdering", "dn": "AscendingOrdering", "cnt": ["DataSelection18","SAEAlphabeticOrder","Order-By_question4","Set_Operations_question3"], "t": "ORDER-BY"},
+    {"id": 946,"n": "LikePredicate", "dn": "LikePredicate", "cnt": ["DataSelection17","Set_Operations_question5","Set_Operations_question4","Pattern_Matching_question2","Pattern_Matching_question1","Pattern_Matching_question4","SAEStringOperation","Pattern_Matching_question3","Pattern_Matching_question5"], "t": "Pattern Matching"},
+    {"id": 951,"n": "InPredicate", "dn": "InPredicate", "cnt": ["SAEUpdatingwithCondition","SAEDeletingwithCondition1","SAEUpdatingwithSubquery","DataSelection28","SAENestedSubqueries1","Sub-Queries_question1","DataSelection29","DataUpdate4","SAENestedSubqueries2","Sub-Queries_question2","DataDeletion2"], "t": "Tuple Update"},
+    {"id": 924,"n": "GreaterThanOrEqualComparison", "dn": "GreaterThanOrEqualComparison", "cnt": ["SAEAggregatingSubquery","DataUpdate1","TableCreation6","DataSelection32","SAEUpdatingData2"], "t": "General Constraints"},
+    {"id": 952,"n": "PrimaryKeyConstraint", "dn": "PrimaryKeyConstraint", "cnt": ["SAEForeignKey","SAEPrimaryKey2","SAEPrimaryKey1","SAEAssertionCreation1","TableCreation2","TableCreation3","TableCreation4","TableCreation5","TableCreation6","TableCreation7","TableCreation9","SAEPrimaryKeyandUniqueKey"], "t": ""},
+    {"id": 970,"n": "LessThanOrEqualComparison", "dn": "LessThanOrEqualComparison", "cnt": ["TableCreation6"], "t": "General Constraints"},
+    {"id": 1018,"n": "DateTimeType", "dn": "DateTimeType", "cnt": ["SAERangeTest2","TableCreation5","DataSelection15"], "t": "SELECT-FROM-WHERE"},
+    {"id": 1016,"n": "AvgFunction", "dn": "AvgFunction", "cnt": ["SAEAggregatingSubquery","SAEGroupQuerieswithCondition","SAEDeletingwithCondition2","DataSelection25","DataSelection26","DataSelection38","Group-By_Having_question1","SAEAggregateFunctions1","DataSelection32","Group-By_Having_question3","SAEAggregateFunctions2","DataSelection22","DataSelection33","DataSelection5","SAEAggregatingDerivedRelations","Aggregate_Functions_question1","DataSelection41","SAEGroupQueries","SAEDerivedRelations","DataDeletion3"], "t": "Aggregate Functions"},
+    {"id": 899,"n": "AddColumnClause", "dn": "AddColumnClause", "cnt": ["SAEColumnAddition","TableAlteration1"], "t": "Table Deletion and Alteration"},
+    {"id": 1031,"n": "RenamingAttribute", "dn": "RenamingAttribute", "cnt": ["Arithmetic_Expressions_question5","Sub-Queries_question5","SELECT-FROM_question4","SELECT-FROM_question5","SAEDerivedRelations","DataSelection33"], "t": "SELECT-FROM"},
+    {"id": 840,"n": "TableAlias", "dn": "TableAlias", "cnt": ["DataSelection18","SAEAssertionCreation1","DataSelection36","SAEUpdatingData3","DataSelection37","DataSelection16","DataSelection38","DataSelection10","DataSelection33","SAEUpdatingData2","SAEAggregatingDerivedRelations","Aggregate_Functions_question1","DataSelection41","SAEMultipleTableSelection1","SAEMultipleTableSelection2","Aggregate_Functions_question4","Aggregate_Functions_question5","SAEDerivedRelations","Sub-Queries_question5","TableCreation5","TableCreation7","TableCreation8","Group-By_Having_question5","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","SAEGroupingandAggregating2","Multiple_Table_question4","SAEGroupingandAggregating1","Multiple_Table_question1","SAEAlphabeticOrder","DataUpdate2","DataUpdate1"], "t": "General Constraints"},
+    {"id": 953,"n": "DefaultValueClause", "dn": "DefaultValue", "cnt": ["SAEForeignKey","TableCreation1","TableCreation4","SAECreateTable1"], "t": "Table Creation"},
+    {"id": 1006,"n": "MultiplicationExpression", "dn": "Multiplication", "cnt": ["Arithmetic_Expressions_question3","Arithmetic_Expressions_question4","Arithmetic_Expressions_question1","DataUpdate3","DataUpdate1","DataSelection8","SAEComparisonCondition2","SAEArithmeticExpressions","SAEUpdatingData2","DataSelection12","SAEUpdatingData1"], "t": "Arithmetic Expressions"},
+    {"id": 975,"n": "NumericType", "dn": "NumericType", "cnt": ["SAEAssertionCreation1","SAEUpdatingData3","SAEAggregateFunctions1","DataSelection32","SAEAggregateFunctions2","SAEUpdatingData2","SAEUpdatingData1","Aggregate_Functions_question3","TableCreation1","TableCreation5","TableCreation6","TableCreation7","TableCreation8","SAECreateTable1","TableAlteration1","SAEMultipleComparisons1","SAEUpdatingwithCondition","SAEGroupQuerieswithCondition","DataUpdate5","DataUpdate4","DataUpdate3","DataSelection7","DataSelection6","DataSelection9","DataSelection8","DataSelection5","Arithmetic_Expressions_question3","Arithmetic_Expressions_question4","Arithmetic_Expressions_question5","SAEUpdatingwithSubquery","SAEInsertingData1","Arithmetic_Expressions_question1","Arithmetic_Expressions_question2","SAESelectionCondition","SAEAggregatingSubquery","SELECT-FROM-WHERE_question4","SELECT-FROM-WHERE_question5","SAEComparisonCondition3","SELECT-FROM-WHERE_question3","SELECT-FROM-WHERE_question1","DataSelection25","DataInsertion2","DataSelection26","SAEComparisonCondition1","DataInsertion1","SAEComparisonCondition2","DataSelection22","SELECT-FROM-WHERE_question8","Order-By_question2","SELECT-FROM-WHERE_question9","SAEColumnAddition","DataUpdate2","DataUpdate1","SAEGroupQueries","DataSelecton11"], "t": "Tuple Insertion"},
+    {"id": 1013,"n": "PredicateNegation", "dn": "PredicateNegation", "cnt": ["DataSelection29","SAENestedSubqueries2","Sub-Queries_question2"], "t": ""},
+    {"id": 907,"n": "AlterTableClause", "dn": "Alter Table", "cnt": ["SAEColumnAddition","SAEColumnDrop","TableAlteration1","TableAlteration2"], "t": "Table Deletion and Alteration"},
+    {"id": 896,"n": "MultipleTableSelection", "dn": "MultipleTableSelection", "cnt": ["DataSelection18","DataInsertion4","DataSelection13","DataSelection35","Sub-Queries_question5","DataSelection36","DataSelection16","DataSelection34","Group-By_Having_question5","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","SAEViewCreation2","Multiple_Table_question4","SAEGroupingandAggregating1","SAEViewCreation1","Multiple_Table_question1","SAEAlphabeticOrder","SAEMultipleTableSelection2","SAEInsertingData4"], "t": "Multiple Table Queries"},
+    {"id": 862,"n": "UniqueConstraint", "dn": "UniqueConstraint", "cnt": ["TableCreation3","SAEPrimaryKeyandUniqueKey"], "t": ""},
+    {"id": 1005,"n": "NotEqualComparison", "dn": "NotEqualComparison", "cnt": ["SELECT-FROM-WHERE_question7","SAEComparisonCondition3","TableCreation5","DataSelection9","SELECT-FROM-WHERE_question8"], "t": "General Constraints"},
+    {"id": 902,"n": "GreaterThanComparison", "dn": "GreaterThanComparison", "cnt": ["SAEComparingSubqueryResults2","SELECT-FROM-WHERE_question4","SAEComparingSubqueryResults1","SAEGroupQuerieswithCondition","DataUpdate5","Sub-Queries_question3","DataSelection7","Sub-Queries_question5","DataSelection26","DataSelection37","SAEComparisonCondition1","DataSelection31","Group-By_Having_question3","DataSelection33","Group-By_Having_question4","SELECT-FROM-WHERE_question8","Group-By_Having_question5","SAEGroupingandAggregating2","SAEUpdatingwithSubquery","DataSelection30","DataSelecton11","SAEDerivedRelations","SAEMultipleComparisons1"], "t": "General Constraints"},
+    {"id": 835,"n": "SimpleSubquery", "dn": "SimpleSubquery", "cnt": ["SAEComparingSubqueryResults2","SAEDeletingwithCondition1","SAEComparingSubqueryResults1","SAENestedSubqueries1","DataUpdate5","SAEAssertionCreation1","SAEDeletingwithCondition2","SAENestedSubqueries2","DataSelection37","DataSelection38","DataSelection31","DataSelection32","SAEAggregatingDerivedRelations","SAEUpdatingwithSubquery","DataSelection41","SAEInsertingData3","SAEInsertingData4","DataDeletion2","DataDeletion3","SAEAggregatingSubquery","DataSelection28","Sub-Queries_question1","DataSelection29","Sub-Queries_question3","Sub-Queries_question2","DataInsertion4","TableCreation5","DataInsertion3","Sub-Queries_question4","TableCreation7","SAEGroupingandAggregating2","DataSelection30","TableDrop1","SAETableDrop"], "t": ""},
+    {"id": 1004,"n": "Timestamp", "dn": "Timestamp", "cnt": ["DataSelection38"], "t": "Tuple Deletion"},
+    {"id": 960,"n": "MinFunction", "dn": "MinFunction", "cnt": ["SAEGroupingandAggregating2","DataSelection41","DataSelection37","DataSelection38","Aggregate_Functions_question2","SAEAggregatingDerivedRelations"], "t": "Aggregate Functions"},
+    {"id": 977,"n": "SelectStatement", "dn": "Select", "cnt": ["SAECheckingNullValues","DataSelection27","DataSelection38"], "t": "SELECT-FROM"},
+    {"id": 985,"n": "DistinctClause", "dn": "DistinctClause", "cnt": ["DataSelection28","SAENestedSubqueries1","SAESkippingDuplicates","Sub-Queries_question1","DataSelection18","DataSelection29","DataUpdate5","SAENestedSubqueries2","Sub-Queries_question2","DataSelection24","DataSelection4","SAEUpdatingwithSubquery","SAEAggregateFunctions4","SAEAlphabeticOrder","SELECT-DISTINCT_question6"], "t": "Tuple Update"},
+    {"id": 979,"n": "AllAttributeSelection", "dn": "AllAttributeSelection", "cnt": ["SAESelectingAllAttributes","SELECT-FROM_question1","DataSelection7","Order-By_question3","Pattern_Matching_question1","SAEComparisonCondition1","DataSelection27","DataSelection3","Order-By_question1","DataSelection23","Order-By_question2","SAEAggregateFunctions3","SAECheckingNullValues","Aggregate_Functions_question5"], "t": "SELECT-FROM"},
+    {"id": 1051,"n": "Division", "dn": "Division", "cnt": ["Arithmetic_Expressions_question5","Arithmetic_Expressions_question2"], "t": ""},
+    {"id": 982,"n": "LessThanComparison", "dn": "LessThanComparison", "cnt": ["SAEGroupingandAggregating2","SELECT-FROM-WHERE_question5","SAEAssertionCreation1","SAEDeletingwithCondition2","Sub-Queries_question4","DataSelection37","TableCreation7","DataSelection8","SAEComparisonCondition2","TableCreation8","DataDeletion3","SELECT-FROM-WHERE_question9"], "t": "General Constraints"},
+    {"id": 883,"n": "AdditionExpression", "dn": "Addition", "cnt": ["SAEUpdatingwithSubquery","DataUpdate5","SAEAssertionCreation1","DataUpdate2","SAEUpdatingData3","TableCreation7","TableCreation8"], "t": "Arithmetic Expressions"},
+    {"id": 841,"n": "SetOperation", "dn": "Set Operation", "cnt": ["SAECheckingNullValues","DataSelection27"], "t": "Tuple Update"},
+    {"id": 926,"n": "AnyPredicate", "dn": "AnyPredicate", "cnt": ["DataSelection30","SAEComparingSubqueryResults1","Sub-Queries_question3"], "t": ""},
+    {"id": 957,"n": "MaxFunction", "dn": "MaxFunction", "cnt": ["Aggregate_Functions_question3"], "t": "Aggregate Functions"},
+    {"id": 856,"n": "SingleAttributeSelection", "dn": "SingleAttributeSelection", "cnt": ["SAEDeletingwithCondition1","SAERangeTest1","SAENestedSubqueries1","SAEAssertionCreation1","SAEDeletingwithCondition2","SAENestedSubqueries2","DataSelection38","DataSelection31","SAEAggregateFunctions1","DataSelection32","SAEAggregateFunctions2","Aggregate_Functions_question1","DataSelection40","SAECheckingNullValues","Aggregate_Functions_question4","Aggregate_Functions_question5","Aggregate_Functions_question2","Aggregate_Functions_question3","SAESkippingDuplicates","Sub-Queries_question1","Sub-Queries_question3","Sub-Queries_question2","TableCreation5","Sub-Queries_question4","TableCreation7","TableCreation8","SAEAggregateFunctions4","SAEMultipleComparisons1","SAEComparingSubqueryResults2","SAEComparingSubqueryResults1","DataSelection17","DataSelection18","DataUpdate5","DataSelection19","SAERetrievingDataFromView","DataSelection14","DataSelection5","DataSelection4","DataSelection1","SAEUpdatingwithSubquery","Arithmetic_Expressions_question1","Arithmetic_Expressions_question2","Set_Operations_question2","SELECT-DISTINCT_question6","DataDeletion2","DataDeletion3","SAEAggregatingSubquery","SELECT-FROM-WHERE_question7","SELECT-FROM-WHERE_question5","DataSelection28","DataSelection29","SELECT-FROM-WHERE_question1","DataSelection24","Order-By_question3","Pattern_Matching_question2","SAECombiningQueryResult1","SELECT-FROM_question2","Order-By_question4","Pattern_Matching_question4","SAECombiningQueryResult3","SAEStringOperation","SELECT-FROM_question4","DataSelection27","Group-By_Having_question1","SAECombiningQueryResult2","DataSelection20","Group-By_Having_question2","DataSelection21","Group-By_Having_question3","DataSelection22","Group-By_Having_question4","Order-By_question1","Group-By_Having_question5","Order-By_question2","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","DataSelection30","Multiple_Table_question4","SAEAlphabeticOrder","DataSelecton11","SAESelectingOneAttribute"], "t": "SELECT-FROM"},
+    {"id": 837,"n": "UnionOperation", "dn": "Union", "cnt": ["SAEViewCreation2","Set_Operations_question4","DataSelection19","DataSelection35","SAECombiningQueryResult1","Set_Operations_question1","Set_Operations_question3"], "t": "Set Operations"},
+    {"id": 868,"n": "AsClause", "dn": "AsClause", "cnt": ["SAEGroupingandAggregating1","DataSelection18","SAEAlphabeticOrder","SAEMultipleTableSelection2","DataSelection36","DataSelection16"], "t": "SELECT-FROM"},
+    {"id": 845,"n": "SingleTableSelection", "dn": "SingleTableSelection", "cnt": ["SAEDeletingwithCondition1","SAEDeletingwithCondition2","DataSelection37","DataSelection38","DataSelection31","DataSelection32","DataSelection33","DataSelection40","SAECheckingNullValues","SAESkippingDuplicates","Sub-Queries_question1","Sub-Queries_question3","Sub-Queries_question2","Sub-Queries_question5","TableCreation5","Sub-Queries_question4","TableCreation7","TableCreation8","SAEComparingSubqueryResults2","SAEComparingSubqueryResults1","SAEGroupQuerieswithCondition","DataSelection17","DataUpdate5","DataSelection19","DataSelection7","DataSelection14","DataSelection6","DataSelection15","DataSelection9","DataSelection8","DataSelection3","DataSelection10","DataSelection2","DataSelection5","DataSelection12","DataSelection4","DataSelection1","SAEUpdatingwithSubquery","SELECT-FROM-WHERE_question6","SELECT-FROM-WHERE_question7","SELECT-FROM-WHERE_question4","SELECT-FROM-WHERE_question5","DataSelection28","SELECT-FROM-WHERE_question2","DataSelection29","SELECT-FROM-WHERE_question3","SELECT-FROM-WHERE_question1","DataSelection24","Order-By_question3","DataSelection25","Order-By_question4","DataSelection26","SAEStringOperation","DataSelection27","Group-By_Having_question1","DataSelection20","Group-By_Having_question2","DataSelection21","Group-By_Having_question3","DataSelection22","Group-By_Having_question4","Order-By_question1","SELECT-FROM-WHERE_question8","DataSelection23","Group-By_Having_question5","Order-By_question2","SELECT-FROM-WHERE_question9","Multiple_Table_question3","Multiple_Table_question2","Multiple_Table_question5","SAEGroupingandAggregating2","DataSelection30","Multiple_Table_question4","Multiple_Table_question1","DataSelecton11","SAESelectingMultipleAttributes","SAERangeTest2","SAERangeTest1","SAENestedSubqueries1","SAEAssertionCreation1","SAENestedSubqueries2","SAEAggregateFunctions1","SAEAggregateFunctions2","Aggregate_Functions_question1","Aggregate_Functions_question4","Aggregate_Functions_question5","SAEDerivedRelations","Aggregate_Functions_question2","Aggregate_Functions_question3","SAESelectingAllAttributes","SAEAggregateFunctions3","SAEAggregateFunctions4","SAEMultipleComparisons1","SAERetrievingDataFromView","Arithmetic_Expressions_question3","Arithmetic_Expressions_question4","Arithmetic_Expressions_question5","Set_Operations_question5","Set_Operations_question4","Arithmetic_Expressions_question1","SAEInsertingData3","SAEMultipleTableSelection1","Arithmetic_Expressions_question2","Set_Operations_question1","Set_Operations_question3","Set_Operations_question2","SELECT-DISTINCT_question6","SAEArithmeticExpressions","SAESelectionCondition","DataDeletion2","DataDeletion3","SAEAggregatingSubquery","SAEComparisonCondition3","SELECT-FROM_question1","Pattern_Matching_question2","SAECombiningQueryResult1","SELECT-FROM_question2","DataInsertion3","Pattern_Matching_question1","SELECT-FROM_question3","Pattern_Matching_question4","SAECombiningQueryResult3","SAEComparisonCondition1","SELECT-FROM_question4","Pattern_Matching_question3","SAECombiningQueryResult2","SAEComparisonCondition2","SELECT-FROM_question5","Pattern_Matching_question5","SAEGroupQueries","SAESelectingOneAttribute"], "t": "SELECT-FROM"},
+    {"id": 891,"n": "SubtractionExpression", "dn": "Subtraction", "cnt": ["DataUpdate2","SAEUpdatingData3"], "t": "Arithmetic Expressions"},
+    {"id": 853,"n": "CreateTableClause", "dn": "CreateTableClause", "cnt": ["SAEForeignKey","SAEPrimaryKey2","SAEPrimaryKey1","TableCreation1","TableCreation2","TableCreation3","TableCreation4","TableCreation9","SAECreateTable1","SAEPrimaryKeyandUniqueKey"], "t": "Table Creation"},
+    {"id": 983,"n": "FromClause", "dn": "FromClause", "cnt": ["SAECheckingNullValues","DataSelection27","DataSelection38"], "t": "SELECT-FROM"},
+    {"id": 942,"n": "HavingClause", "dn": "HavingClause", "cnt": ["SAEAggregatingSubquery","SAEGroupingandAggregating2","SAEGroupQuerieswithCondition","DataSelection26","DataSelection37","Group-By_Having_question1","Group-By_Having_question2","DataSelection32","Group-By_Having_question3","Group-By_Having_question4","Group-By_Having_question5"], "t": "GROUP-BY and HAVING"},
+    {"id": 910,"n": "CountFunction", "dn": "CountFunction", "cnt": ["SAEAssertionCreation1","DataSelection24","Sub-Queries_question5","DataSelection36","DataSelection37","TableCreation7","DataSelection38","TableCreation8","Group-By_Having_question4","DataSelection23","Group-By_Having_question5","SAEAggregateFunctions3","SAEGroupingandAggregating2","SAEAggregateFunctions4","SAEGroupingandAggregating1","Aggregate_Functions_question5"], "t": "Aggregate Functions"},
+    {"id": 941,"n": "AllOperation", "dn": "AllOperation", "cnt": ["Set_Operations_question5","Set_Operations_question2"], "t": "Set Operations"}
+  ],
+  kcgroups:[ 
+  ],
+learners:[ 
+{
+  id:"akhuseyinoglu",
+  name:"undefined",
+  isHidden:true,
+  state:{
+      topics:{  
+       "SELECT-FROM": {values:{  "ex":{"k":0,"p":0.88},"Problems":{"k":0,"p":1},"ae79":{"k":0,"p":1}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.97}},
+       "SELECT-FROM-WHERE": {values:{  "ex":{"k":0,"p":0.94},"Problems":{"k":0,"p":1},"ae79":{"k":0,"p":0.57}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.85}},
+       "Arithmetic Expressions": {values:{  "ex":{"k":0,"p":1},"Problems":{"k":0,"p":0.8},"ae79":{"k":0,"p":1}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.86}},
+       "Pattern Matching": {values:{  "ex":{"k":0,"p":1},"Problems":{"k":0,"p":0.4},"ae79":{"k":0,"p":0}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.43}},
+       "Multiple Table Queries": {values:{  "ex":{"k":0,"p":0.75},"Problems":{"k":0,"p":0.2},"ae79":{"k":0,"p":0.25}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.33}},
+       "ORDER-BY": {values:{  "ex":{"k":0,"p":1},"Problems":{"k":0,"p":1},"ae79":{"k":0,"p":0.33}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.89}},
+       "Set Operations": {values:{  "ex":{"k":0,"p":0.43},"Problems":{"k":0,"p":0.2},"ae79":{"k":0,"p":0}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.21}},
+       "Sub-Queries": {values:{  "ex":{"k":0,"p":0.38},"Problems":{"k":0,"p":0.4},"ae79":{"k":0,"p":0.5}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.42}},
+       "Aggregate Functions": {values:{  "ex":{"k":0,"p":0.88},"Problems":{"k":0,"p":0.2},"ae79":{"k":0,"p":0}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.35}},
+       "GROUP-BY and HAVING": {values:{  "ex":{"k":0,"p":0.6},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.2}},
+       "Table Creation": {values:{  "ex":{"k":0,"p":1},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":1}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":1}},
+       "Table Deletion and Alteration": {values:{  "ex":{"k":0,"p":1},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.33}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.67}},
+       "Key Constraints": {values:{  "ex":{"k":0,"p":0.51},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.25}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.38}},
+       "Tuple Insertion": {values:{  "ex":{"k":0,"p":0.73},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.67}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.7}},
+       "Tuple Deletion": {values:{  "ex":{"k":0,"p":0.61},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.33}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.47}},
+       "Tuple Update": {values:{  "ex":{"k":0,"p":0.68},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.1}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.39}},
+       "General Constraints": {values:{  "ex":{"k":0,"p":0.5},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.4}},
+       "Derived Relations and Views": {values:{  "ex":{"k":0,"p":0.3},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0}},sequencing:{  "ex":0 ,"Problems":0 ,"ae79":0}, overall:{"k":0,"p":0.15}}
+      },
+      activities:{  
+       "SELECT-FROM": {  
+        "ex":{
+          "DataSelection1": {values:{"k":0,"p":1,"a":96,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "DataSelection2": {values:{"k":0,"p":1,"a":6,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "DataSelection3": {values:{"k":0,"p":1,"a":9,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "DataSelection4": {values:{"k":0,"p":0.5,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":2,"difficulty":0.17},sequencing:0}
+        },
+        "Problems":{
+          "SELECT-FROM_question1": {values:{"k":0,"p":1,"a":183,"s":0.37,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "SELECT-FROM_question2": {values:{"k":0,"p":1,"a":26,"s":0.65,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "SELECT-FROM_question3": {values:{"k":0,"p":1,"a":111,"s":0.2,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "SELECT-FROM_question4": {values:{"k":0,"p":1,"a":26,"s":0.38,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":3,"difficulty":0},sequencing:0},
+          "SELECT-FROM_question5": {values:{"k":0,"p":1,"a":11,"s":0.55,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":3,"difficulty":0},sequencing:0},
+          "SELECT-DISTINCT_question6": {values:{"k":0,"p":1,"a":2,"s":0.5,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":2,"difficulty":0.17},sequencing:0}
+        },
+        "ae79":{
+          "SAESelectingOneAttribute": {values:{"k":0,"p":1,"a":14,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "SAESelectingMultipleAttributes": {values:{"k":0,"p":1,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "SAESelectingAllAttributes": {values:{"k":0,"p":1,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":2,"difficulty":0},sequencing:0},
+          "SAESkippingDuplicates": {values:{"k":0,"p":1,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":2,"difficulty":0.17},sequencing:0}
+        }
+       },
+       "SELECT-FROM-WHERE": {  
+        "ex":{
+          "DataSelection6": {values:{"k":0,"p":1,"a":18,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "DataSelection7": {values:{"k":0,"p":1,"a":8,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "DataSelection8": {values:{"k":0,"p":1,"a":11,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":6,"difficulty":0},sequencing:0},
+          "DataSelection9": {values:{"k":0,"p":1,"a":5,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "DataSelecton11": {values:{"k":0,"p":1,"a":7,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":8,"difficulty":0},sequencing:0},
+          "DataSelection13": {values:{"k":0,"p":0.5,"a":5,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":6,"difficulty":0.07},sequencing:0},
+          "DataSelection14": {values:{"k":0,"p":1,"a":3,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":3,"difficulty":0.25},sequencing:0},
+          "DataSelection15": {values:{"k":0,"p":1,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":0,"kcsKnown":3,"difficulty":0.4},sequencing:0}
+        },
+        "Problems":{
+          "SELECT-FROM-WHERE_question1": {values:{"k":0,"p":1,"a":9,"s":0.33,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "SELECT-FROM-WHERE_question2": {values:{"k":0,"p":1,"a":9,"s":0.44,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "SELECT-FROM-WHERE_question3": {values:{"k":0,"p":1,"a":6,"s":0.17,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":7,"difficulty":0},sequencing:0},
+          "SELECT-FROM-WHERE_question4": {values:{"k":0,"p":1,"a":6,"s":0.17,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":4,"difficulty":0},sequencing:0},
+          "SELECT-FROM-WHERE_question5": {values:{"k":0,"p":1,"a":14,"s":0.5,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "SELECT-FROM-WHERE_question6": {values:{"k":0,"p":1,"a":16,"s":0.62,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":6,"difficulty":0},sequencing:0},
+          "SELECT-FROM-WHERE_question7": {values:{"k":0,"p":1,"a":2,"s":1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "SELECT-FROM-WHERE_question8": {values:{"k":0,"p":1,"a":5,"s":0.6,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":7,"difficulty":0},sequencing:0},
+          "SELECT-FROM-WHERE_question9": {values:{"k":0,"p":1,"a":11,"s":0.91,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":7,"difficulty":0},sequencing:0}
+        },
+        "ae79":{
+          "SAESelectionCondition": {values:{"k":0,"p":0.5,"a":3,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "SAEComparisonCondition1": {values:{"k":0,"p":1,"a":7,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "SAEComparisonCondition2": {values:{"k":0,"p":0.5,"a":9,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":6,"difficulty":0},sequencing:0},
+          "SAEComparisonCondition3": {values:{"k":0,"p":0.5,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "SAEMultipleComparisons1": {values:{"k":0,"p":0.5,"a":3,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":8,"difficulty":0},sequencing:0},
+          "SAERangeTest1": {values:{"k":0,"p":1,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":3,"difficulty":0.25},sequencing:0},
+          "SAERangeTest2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":0,"kcsKnown":3,"difficulty":0.4},sequencing:0}
+        }
+       },
+       "Arithmetic Expressions": {  
+        "ex":{
+          "DataSelection12": {values:{"k":0,"p":1,"a":7,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":3,"difficulty":0},sequencing:0}
+        },
+        "Problems":{
+          "Arithmetic_Expressions_question1": {values:{"k":0,"p":1,"a":6,"s":0.33,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":4,"difficulty":0},sequencing:0},
+          "Arithmetic_Expressions_question2": {values:{"k":0,"p":1,"a":8,"s":0.38,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":4,"difficulty":0},sequencing:0},
+          "Arithmetic_Expressions_question3": {values:{"k":0,"p":1,"a":12,"s":0.83,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":4,"difficulty":0},sequencing:0},
+          "Arithmetic_Expressions_question4": {values:{"k":0,"p":0,"a":4,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":4,"difficulty":0},sequencing:0},
+          "Arithmetic_Expressions_question5": {values:{"k":0,"p":1,"a":8,"s":0.62,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0}
+        },
+        "ae79":{
+          "SAEArithmeticExpressions": {values:{"k":0,"p":1,"a":3,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":3,"difficulty":0},sequencing:0}
+        }
+       },
+       "Pattern Matching": {  
+        "ex":{
+          "DataSelection17": {values:{"k":0,"p":1,"a":6,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0}
+        },
+        "Problems":{
+          "Pattern_Matching_question1": {values:{"k":0,"p":1,"a":3,"s":0.33,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "Pattern_Matching_question2": {values:{"k":0,"p":1,"a":15,"s":0.07,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "Pattern_Matching_question3": {values:{"k":0,"p":0,"a":1,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "Pattern_Matching_question4": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":6,"difficulty":0},sequencing:0},
+          "Pattern_Matching_question5": {values:{"k":0,"p":0,"a":1,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":6,"difficulty":0},sequencing:0}
+        },
+        "ae79":{
+          "SAEStringOperation": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0}
+        }
+       },
+       "Multiple Table Queries": {  
+        "ex":{
+          "DataSelection10": {values:{"k":0,"p":1,"a":18,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":7,"difficulty":0.06},sequencing:0},
+          "DataSelection16": {values:{"k":0,"p":0.5,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":4,"difficulty":0.25},sequencing:0}
+        },
+        "Problems":{
+          "Multiple_Table_question1": {values:{"k":0,"p":0,"a":8,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":7,"difficulty":0.06},sequencing:0},
+          "Multiple_Table_question2": {values:{"k":0,"p":0,"a":1,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":9,"difficulty":0.05},sequencing:0},
+          "Multiple_Table_question3": {values:{"k":0,"p":0,"a":2,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":9,"difficulty":0.05},sequencing:0},
+          "Multiple_Table_question4": {values:{"k":0,"p":0,"a":3,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":9,"difficulty":0.05},sequencing:0},
+          "Multiple_Table_question5": {values:{"k":0,"p":1,"a":2,"s":0.5,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":9,"difficulty":0.05},sequencing:0}
+        },
+        "ae79":{
+          "SAEMultipleTableSelection1": {values:{"k":0,"p":0.5,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":7,"difficulty":0.06},sequencing:0},
+          "SAEMultipleTableSelection2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":4,"difficulty":0.25},sequencing:0}
+        }
+       },
+       "ORDER-BY": {  
+        "ex":{
+          "DataSelection18": {values:{"k":0,"p":1,"a":15,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":2,"kcsKnown":5,"difficulty":0.25},sequencing:0}
+        },
+        "Problems":{
+          "Order-By_question1": {values:{"k":0,"p":1,"a":3,"s":0.33,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "Order-By_question2": {values:{"k":0,"p":1,"a":3,"s":0.33,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":8,"difficulty":0},sequencing:0},
+          "Order-By_question3": {values:{"k":0,"p":1,"a":9,"s":0.67,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":9,"difficulty":0},sequencing:0},
+          "Order-By_question4": {values:{"k":0,"p":1,"a":6,"s":0.67,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0}
+        },
+        "ae79":{
+          "SAEAlphabeticOrder": {values:{"k":0,"p":0.33,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":2,"kcsKnown":5,"difficulty":0.25},sequencing:0}
+        }
+       },
+       "Set Operations": {  
+        "ex":{
+          "DataSelection19": {values:{"k":0,"p":1,"a":8,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":3,"difficulty":0},sequencing:0},
+          "DataSelection20": {values:{"k":0,"p":0.25,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":2,"difficulty":0.33},sequencing:0},
+          "DataSelection21": {values:{"k":0,"p":0.25,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":2,"difficulty":0.33},sequencing:0},
+          "DataSelection30": {values:{"k":0,"p":0.33,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":6,"difficulty":0.19},sequencing:0},
+          "DataSelection31": {values:{"k":0,"p":0.33,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":6,"difficulty":0.19},sequencing:0}
+        },
+        "Problems":{
+          "Set_Operations_question1": {values:{"k":0,"p":1,"a":22,"s":0.23,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "Set_Operations_question2": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":4,"difficulty":0.2},sequencing:0},
+          "Set_Operations_question3": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":6,"difficulty":0},sequencing:0},
+          "Set_Operations_question4": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":6,"difficulty":0},sequencing:0},
+          "Set_Operations_question5": {values:{"k":0,"p":0,"a":2,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":5,"difficulty":0.17},sequencing:0}
+        },
+        "ae79":{
+          "SAECombiningQueryResult1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":3,"difficulty":0},sequencing:0},
+          "SAECombiningQueryResult2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":2,"difficulty":0.33},sequencing:0},
+          "SAECombiningQueryResult3": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":2,"difficulty":0.33},sequencing:0},
+          "SAEComparingSubqueryResults1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":6,"difficulty":0.19},sequencing:0},
+          "SAEComparingSubqueryResults2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":6,"difficulty":0.19},sequencing:0}
+        }
+       },
+       "Sub-Queries": {  
+        "ex":{
+          "DataSelection28": {values:{"k":0,"p":0.5,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":3,"kcsKnown":3,"difficulty":0.25},sequencing:0},
+          "DataSelection29": {values:{"k":0,"p":0.25,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":3,"kcsKnown":3,"difficulty":0.36},sequencing:0}
+        },
+        "Problems":{
+          "Sub-Queries_question1": {values:{"k":0,"p":1,"a":4,"s":0.25,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":3,"kcsKnown":3,"difficulty":0.25},sequencing:0},
+          "Sub-Queries_question2": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":3,"kcsKnown":3,"difficulty":0.36},sequencing:0},
+          "Sub-Queries_question3": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":6,"difficulty":0.19},sequencing:0},
+          "Sub-Queries_question4": {values:{"k":0,"p":0,"a":1,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":6,"difficulty":0.19},sequencing:0},
+          "Sub-Queries_question5": {values:{"k":0,"p":1,"a":14,"s":0.36,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":9,"difficulty":0.05},sequencing:0}
+        },
+        "ae79":{
+          "SAENestedSubqueries1": {values:{"k":0,"p":1,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":3,"kcsKnown":3,"difficulty":0.25},sequencing:0},
+          "SAENestedSubqueries2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":3,"kcsKnown":3,"difficulty":0.36},sequencing:0}
+        }
+       },
+       "Aggregate Functions": {  
+        "ex":{
+          "DataSelection5": {values:{"k":0,"p":1,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":3,"difficulty":0.25},sequencing:0},
+          "DataSelection22": {values:{"k":0,"p":1,"a":3,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":6,"difficulty":0.14},sequencing:0},
+          "DataSelection23": {values:{"k":0,"p":1,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":3,"difficulty":0},sequencing:0},
+          "DataSelection24": {values:{"k":0,"p":0.5,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":3,"difficulty":0.12},sequencing:0}
+        },
+        "Problems":{
+          "Aggregate_Functions_question1": {values:{"k":0,"p":0,"a":1,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":6,"difficulty":0.14},sequencing:0},
+          "Aggregate_Functions_question2": {values:{"k":0,"p":0,"a":1,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":2,"difficulty":0.33},sequencing:0},
+          "Aggregate_Functions_question3": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":5,"difficulty":0.17},sequencing:0},
+          "Aggregate_Functions_question4": {values:{"k":0,"p":0,"a":3,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":5,"difficulty":0.17},sequencing:0},
+          "Aggregate_Functions_question5": {values:{"k":0,"p":1,"a":12,"s":0.5,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":7,"difficulty":0},sequencing:0}
+        },
+        "ae79":{
+          "SAEAggregateFunctions1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":3,"difficulty":0.25},sequencing:0},
+          "SAEAggregateFunctions2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":6,"difficulty":0.14},sequencing:0},
+          "SAEAggregateFunctions3": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":3,"difficulty":0},sequencing:0},
+          "SAEAggregateFunctions4": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":1,"kcsKnown":3,"difficulty":0.12},sequencing:0}
+        }
+       },
+       "GROUP-BY and HAVING": {  
+        "ex":{
+          "DataSelection25": {values:{"k":0,"p":0.33,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":3,"difficulty":0.3},sequencing:0},
+          "DataSelection26": {values:{"k":0,"p":0.33,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":4,"difficulty":0.36},sequencing:0},
+          "DataSelection32": {values:{"k":0,"p":1,"a":14,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":2,"kcsKnown":3,"difficulty":0.56},sequencing:0},
+          "DataSelection36": {values:{"k":0,"p":1,"a":8,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":2,"kcsKnown":7,"difficulty":0.2},sequencing:0},
+          "DataSelection37": {values:{"k":0,"p":0.33,"a":6,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":2,"kcsKnown":7,"difficulty":0.27},sequencing:0}
+        },
+        "Problems":{
+          "Group-By_Having_question1": {values:{"k":0,"p":0,"a":1,"s":0,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":2,"difficulty":0.5},sequencing:0},
+          "Group-By_Having_question2": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":2,"difficulty":0.5},sequencing:0},
+          "Group-By_Having_question3": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":3,"difficulty":0.42},sequencing:0},
+          "Group-By_Having_question4": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":4,"difficulty":0.36},sequencing:0},
+          "Group-By_Having_question5": {values:{"k":0,"p":0,"a":0,"s":0,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":7,"difficulty":0.17},sequencing:0}
+        },
+        "ae79":{
+          "SAEGroupQueries": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":3,"difficulty":0.3},sequencing:0},
+          "SAEGroupQuerieswithCondition": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":4,"difficulty":0.36},sequencing:0},
+          "SAEAggregatingSubquery": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":2,"kcsKnown":3,"difficulty":0.56},sequencing:0},
+          "SAEGroupingandAggregating1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":2,"kcsKnown":7,"difficulty":0.2},sequencing:0},
+          "SAEGroupingandAggregating2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":2,"kcsKnown":7,"difficulty":0.27},sequencing:0}
+        }
+       },
+       "Table Creation": {  
+        "ex":{
+          "TableCreation1": {values:{"k":0,"p":1,"a":45,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":0,"kcsKnown":2,"difficulty":0.67},sequencing:0}
+        },
+        "Problems":{},
+        "ae79":{
+          "SAECreateTable1": {values:{"k":0,"p":1,"a":12,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":0,"kcsKnown":2,"difficulty":0.67},sequencing:0}
+        }
+       },
+       "Table Deletion and Alteration": {  
+        "ex":{
+          "TableDrop1": {values:{"k":0,"p":1,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":0,"difficulty":0.75},sequencing:0},
+          "TableAlteration1": {values:{"k":0,"p":1,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":1,"difficulty":0.75},sequencing:0},
+          "TableAlteration2": {values:{"k":0,"p":1,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":0,"difficulty":1},sequencing:0}
+        },
+        "Problems":{},
+        "ae79":{
+          "SAETableDrop": {values:{"k":0,"p":1,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":0,"difficulty":0.75},sequencing:0},
+          "SAEColumnAddition": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":1,"difficulty":0.75},sequencing:0},
+          "SAEColumnDrop": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":0,"difficulty":1},sequencing:0}
+        }
+       },
+       "Key Constraints": {  
+        "ex":{
+          "TableCreation2": {values:{"k":0,"p":0.83,"a":10,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":1,"difficulty":0.75},sequencing:0},
+          "TableCreation3": {values:{"k":0,"p":0.57,"a":6,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":5,"kcsLearning":0,"kcsKnown":1,"difficulty":0.83},sequencing:0},
+          "TableCreation4": {values:{"k":0,"p":0.62,"a":6,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":5,"kcsLearning":0,"kcsKnown":1,"difficulty":0.83},sequencing:0},
+          "TableCreation9": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":0,"kcsKnown":1,"difficulty":0.8},sequencing:0}
+        },
+        "Problems":{},
+        "ae79":{
+          "SAEPrimaryKey1": {values:{"k":0,"p":1,"a":6,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":1,"difficulty":0.75},sequencing:0},
+          "SAEPrimaryKeyandUniqueKey": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":5,"kcsLearning":0,"kcsKnown":1,"difficulty":0.83},sequencing:0},
+          "SAEForeignKey": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":5,"kcsLearning":0,"kcsKnown":1,"difficulty":0.83},sequencing:0},
+          "SAEPrimaryKey2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":0,"kcsKnown":1,"difficulty":0.8},sequencing:0}
+        }
+       },
+       "Tuple Insertion": {  
+        "ex":{
+          "DataInsertion1": {values:{"k":0,"p":1,"a":6,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":2,"difficulty":0.6},sequencing:0},
+          "DataInsertion2": {values:{"k":0,"p":0.67,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":2,"difficulty":0.6},sequencing:0},
+          "DataInsertion3": {values:{"k":0,"p":0.75,"a":9,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":4,"difficulty":0.25},sequencing:0},
+          "DataInsertion4": {values:{"k":0,"p":0.5,"a":7,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":2,"kcsKnown":5,"difficulty":0.25},sequencing:0}
+        },
+        "Problems":{},
+        "ae79":{
+          "SAEInsertingData1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":2,"difficulty":0.6},sequencing:0},
+          "SAEInsertingData3": {values:{"k":0,"p":1,"a":3,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":4,"difficulty":0.25},sequencing:0},
+          "SAEInsertingData4": {values:{"k":0,"p":1,"a":5,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":2,"kcsKnown":5,"difficulty":0.25},sequencing:0}
+        }
+       },
+       "Tuple Deletion": {  
+        "ex":{
+          "DataDeletion1": {values:{"k":0,"p":0.67,"a":5,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":0,"difficulty":1},sequencing:0},
+          "DataDeletion2": {values:{"k":0,"p":0.4,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":2,"kcsKnown":4,"difficulty":0.29},sequencing:0},
+          "DataDeletion3": {values:{"k":0,"p":0.75,"a":4,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":3,"difficulty":0.42},sequencing:0}
+        },
+        "Problems":{},
+        "ae79":{
+          "SAEDeletingData": {values:{"k":0,"p":1,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":0,"difficulty":1},sequencing:0},
+          "SAEDeletingwithCondition1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":2,"kcsKnown":4,"difficulty":0.29},sequencing:0},
+          "SAEDeletingwithCondition2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":3,"difficulty":0.42},sequencing:0}
+        }
+       },
+       "Tuple Update": {  
+        "ex":{
+          "DataUpdate3": {values:{"k":0,"p":1,"a":17,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":2,"difficulty":0.33},sequencing:0},
+          "DataUpdate1": {values:{"k":0,"p":1,"a":6,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":0,"kcsKnown":4,"difficulty":0.33},sequencing:0},
+          "DataUpdate2": {values:{"k":0,"p":0.75,"a":7,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":4,"difficulty":0.43},sequencing:0},
+          "DataUpdate4": {values:{"k":0,"p":0.67,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":2,"difficulty":0.38},sequencing:0},
+          "DataUpdate5": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":2,"kcsKnown":5,"difficulty":0.33},sequencing:0}
+        },
+        "Problems":{},
+        "ae79":{
+          "SAEUpdatingData1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":0,"kcsKnown":2,"difficulty":0.33},sequencing:0},
+          "SAEUpdatingData2": {values:{"k":0,"p":0.5,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":0,"kcsKnown":4,"difficulty":0.33},sequencing:0},
+          "SAEUpdatingData3": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":0,"kcsKnown":4,"difficulty":0.43},sequencing:0},
+          "SAEUpdatingwithCondition": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":2,"difficulty":0.38},sequencing:0},
+          "SAEUpdatingwithSubquery": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":3,"kcsKnown":5,"difficulty":0.35},sequencing:0}
+        }
+       },
+       "General Constraints": {  
+        "ex":{
+          "TableCreation7": {values:{"k":0,"p":0.43,"a":9,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":1,"kcsKnown":7,"difficulty":0.38},sequencing:0},
+          "TableCreation8": {values:{"k":0,"p":0.29,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":0,"kcsKnown":6,"difficulty":0.25},sequencing:0},
+          "TableCreation5": {values:{"k":0,"p":0.64,"a":8,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":1,"kcsKnown":7,"difficulty":0.38},sequencing:0},
+          "TableCreation6": {values:{"k":0,"p":0.67,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":5,"kcsLearning":0,"kcsKnown":2,"difficulty":0.71},sequencing:0}
+        },
+        "Problems":{},
+        "ae79":{
+          "SAEAssertionCreation1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":4,"kcsLearning":1,"kcsKnown":7,"difficulty":0.38},sequencing:0}
+        }
+       },
+       "Derived Relations and Views": {  
+        "ex":{
+          "DataSelection33": {values:{"k":0,"p":0.62,"a":12,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":5,"difficulty":0.31},sequencing:0},
+          "DataSelection34": {values:{"k":0,"p":0.2,"a":1,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":2,"difficulty":0.38},sequencing:0},
+          "DataSelection35": {values:{"k":0,"p":0.2,"a":2,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":3,"difficulty":0.3},sequencing:0},
+          "DataSelection40": {values:{"k":0,"p":0.33,"a":5,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "DataSelection41": {values:{"k":0,"p":0.17,"a":5,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":2,"kcsKnown":3,"difficulty":0.5},sequencing:0}
+        },
+        "Problems":{},
+        "ae79":{
+          "SAEDerivedRelations": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":2,"kcsLearning":1,"kcsKnown":5,"difficulty":0.31},sequencing:0},
+          "SAEViewCreation1": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":2,"difficulty":0.38},sequencing:0},
+          "SAEViewCreation2": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":1,"kcsLearning":1,"kcsKnown":3,"difficulty":0.3},sequencing:0},
+          "SAERetrievingDataFromView": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":0,"kcsLearning":0,"kcsKnown":5,"difficulty":0},sequencing:0},
+          "SAEAggregatingDerivedRelations": {values:{"k":0,"p":0,"a":0,"s":-1,"t":-1,"aSeq":"","kcsNotKnown":3,"kcsLearning":2,"kcsKnown":4,"difficulty":0.44},sequencing:0}
+        }
+       }
+      },
+    kcs:{  
+       873: {"k":0.62,"p":0.15,"sr":0.06,"lastk-att":-1,"lastk-sr":-1},
+       945: {"k":0.96,"p":0.34,"sr":0.19,"lastk-att":1.25,"lastk-sr":0},
+       863: {"k":0.97,"p":0.4,"sr":0.26,"lastk-att":1,"lastk-sr":0.33},
+       842: {"k":0,"p":0.5,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1037: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       846: {"k":0,"p":0.17,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       852: {"k":0.97,"p":0.34,"sr":0.2,"lastk-att":1.33,"lastk-sr":0},
+       959: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       956: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1033: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       935: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       981: {"k":0,"p":1,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1035: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1012: {"k":0,"p":0.29,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1015: {"k":0.72,"p":0.39,"sr":0.16,"lastk-att":-1,"lastk-sr":-1},
+       1000: {"k":0.71,"p":1,"sr":0.67,"lastk-att":-1,"lastk-sr":-1},
+       1021: {"k":0,"p":0.2,"sr":0,"lastk-att":1,"lastk-sr":0},
+       964: {"k":0.3,"p":0.25,"sr":0.1,"lastk-att":-1,"lastk-sr":-1},
+       962: {"k":0.98,"p":0.44,"sr":0.31,"lastk-att":1.75,"lastk-sr":0.33},
+       948: {"k":0,"p":0.33,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       920: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       963: {"k":0,"p":0.25,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1024: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       848: {"k":0.9,"p":0.67,"sr":0.51,"lastk-att":1,"lastk-sr":0},
+       999: {"k":0,"p":0.2,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       990: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       912: {"k":0,"p":0.75,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       911: {"k":0.74,"p":1,"sr":0.67,"lastk-att":-1,"lastk-sr":-1},
+       997: {"k":0.83,"p":1,"sr":0.44,"lastk-att":-1,"lastk-sr":-1},
+       887: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       906: {"k":0.71,"p":0.5,"sr":0.33,"lastk-att":-1,"lastk-sr":-1},
+       946: {"k":0.85,"p":0.33,"sr":0.06,"lastk-att":1.5,"lastk-sr":0},
+       951: {"k":0.42,"p":0.18,"sr":0.12,"lastk-att":-1,"lastk-sr":-1},
+       924: {"k":0,"p":0.4,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       952: {"k":0,"p":0.08,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       970: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1018: {"k":0,"p":0.33,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1016: {"k":0,"p":0.15,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       899: {"k":0,"p":0.5,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1031: {"k":0.94,"p":0.67,"sr":0.48,"lastk-att":2,"lastk-sr":0.17},
+       840: {"k":0.85,"p":0.21,"sr":0.14,"lastk-att":1,"lastk-sr":0},
+       953: {"k":0,"p":0.5,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1006: {"k":0.88,"p":0.64,"sr":0.39,"lastk-att":-1,"lastk-sr":-1},
+       975: {"k":0.96,"p":0.47,"sr":0.4,"lastk-att":2,"lastk-sr":0.67},
+       1013: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       907: {"k":0,"p":0.5,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       896: {"k":0.71,"p":0.25,"sr":0.12,"lastk-att":-1,"lastk-sr":-1},
+       862: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       1005: {"k":0.71,"p":0.6,"sr":0.8,"lastk-att":-1,"lastk-sr":-1},
+       902: {"k":0.83,"p":0.26,"sr":0.16,"lastk-att":-1,"lastk-sr":-1},
+       835: {"k":0.22,"p":0.22,"sr":0.06,"lastk-att":1,"lastk-sr":0},
+       1004: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       960: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       977: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       985: {"k":0.51,"p":0.33,"sr":0.25,"lastk-att":-1,"lastk-sr":-1},
+       979: {"k":0.97,"p":0.79,"sr":0.42,"lastk-att":2,"lastk-sr":0},
+       1051: {"k":0.84,"p":1,"sr":0.5,"lastk-att":3,"lastk-sr":0.33},
+       982: {"k":0.89,"p":0.25,"sr":0.47,"lastk-att":1,"lastk-sr":0.5},
+       883: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       841: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       926: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       957: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       856: {"k":0.98,"p":0.35,"sr":0.22,"lastk-att":1,"lastk-sr":0.2},
+       837: {"k":0.78,"p":0.29,"sr":0.08,"lastk-att":-1,"lastk-sr":-1},
+       868: {"k":0,"p":0.33,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       845: {"k":0.99,"p":0.44,"sr":0.26,"lastk-att":1.5,"lastk-sr":0.23},
+       891: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       853: {"k":0,"p":0.3,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       983: {"k":0,"p":0,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       942: {"k":0,"p":0.09,"sr":0,"lastk-att":-1,"lastk-sr":-1},
+       910: {"k":0.88,"p":0.25,"sr":0.21,"lastk-att":1,"lastk-sr":0},
+       941: {"k":0,"p":0,"sr":0,"lastk-att":2,"lastk-sr":0}
+    }
+   }
+}
+],
+groups:[ 
+{
+  name:"Class Average",
+  state:{  
+    topics:{  
+       "SELECT-FROM": {values:{  "ex":{"k":0,"p":0.08},"Problems":{"k":0,"p":0.29},"ae79":{"k":0,"p":0.07}}},
+       "SELECT-FROM-WHERE": {values:{  "ex":{"k":0,"p":0.09},"Problems":{"k":0,"p":0.19},"ae79":{"k":0,"p":0.02}}},
+       "Arithmetic Expressions": {values:{  "ex":{"k":0,"p":0.07},"Problems":{"k":0,"p":0.2},"ae79":{"k":0,"p":0}}},
+       "Pattern Matching": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0.23},"ae79":{"k":0,"p":0}}},
+       "Multiple Table Queries": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0.29},"ae79":{"k":0,"p":0.04}}},
+       "ORDER-BY": {values:{  "ex":{"k":0,"p":0.14},"Problems":{"k":0,"p":0.25},"ae79":{"k":0,"p":0.19}}},
+       "Set Operations": {values:{  "ex":{"k":0,"p":0.07},"Problems":{"k":0,"p":0.26},"ae79":{"k":0,"p":0.01}}},
+       "Sub-Queries": {values:{  "ex":{"k":0,"p":0.05},"Problems":{"k":0,"p":0.23},"ae79":{"k":0,"p":0.07}}},
+       "Aggregate Functions": {values:{  "ex":{"k":0,"p":0.08},"Problems":{"k":0,"p":0.26},"ae79":{"k":0,"p":0.07}}},
+       "GROUP-BY and HAVING": {values:{  "ex":{"k":0,"p":0.04},"Problems":{"k":0,"p":0.14},"ae79":{"k":0,"p":0.01}}},
+       "Table Creation": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.14}}},
+       "Table Deletion and Alteration": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.14}}},
+       "Key Constraints": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.11}}},
+       "Tuple Insertion": {values:{  "ex":{"k":0,"p":0.01},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.05}}},
+       "Tuple Deletion": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.05}}},
+       "Tuple Update": {values:{  "ex":{"k":0,"p":0.03},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0}}},
+       "General Constraints": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.14}}},
+       "Derived Relations and Views": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.03}}}
+    },
+    activities:{  
+      "SELECT-FROM": { 
+        "ex":{  
+          "DataSelection1": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection2": {values:{"k":0,"p":0.07,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelection3": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}},
+          "DataSelection4": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "SELECT-FROM_question1": {values:{"k":0,"p":0.43,"a":1,"s":1,"t":0,"n":3}},
+          "SELECT-FROM_question2": {values:{"k":0,"p":0.29,"a":3,"s":0.8,"t":0,"n":2}},
+          "SELECT-FROM_question3": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "SELECT-FROM_question4": {values:{"k":0,"p":0.29,"a":3,"s":0.8,"t":0,"n":2}},
+          "SELECT-FROM_question5": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "SELECT-DISTINCT_question6": {values:{"k":0,"p":0.14,"a":2,"s":0.5,"t":0,"n":1}}
+        },
+        "ae79":{  
+          "SAESelectingOneAttribute": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAESelectingMultipleAttributes": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAESelectingAllAttributes": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAESkippingDuplicates": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "SELECT-FROM-WHERE": { 
+        "ex":{  
+          "DataSelection6": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}},
+          "DataSelection7": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection8": {values:{"k":0,"p":0.1,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelection9": {values:{"k":0,"p":0.1,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelecton11": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection13": {values:{"k":0,"p":0.07,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelection14": {values:{"k":0,"p":0.14,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelection15": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "SELECT-FROM-WHERE_question1": {values:{"k":0,"p":0.29,"a":2,"s":0.83,"t":0,"n":2}},
+          "SELECT-FROM-WHERE_question2": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "SELECT-FROM-WHERE_question3": {values:{"k":0,"p":0.14,"a":3,"s":0.33,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question5": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question6": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question7": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question8": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "SELECT-FROM-WHERE_question9": {values:{"k":0,"p":0.14,"a":2,"s":0.5,"t":0,"n":1}}
+        },
+        "ae79":{  
+          "SAESelectionCondition": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEComparisonCondition1": {values:{"k":0,"p":0.14,"a":2,"s":0,"t":0,"n":1}},
+          "SAEComparisonCondition2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEComparisonCondition3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEMultipleComparisons1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAERangeTest1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAERangeTest2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Arithmetic Expressions": { 
+        "ex":{  
+          "DataSelection12": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "Arithmetic_Expressions_question1": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "Arithmetic_Expressions_question2": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "Arithmetic_Expressions_question3": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Arithmetic_Expressions_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Arithmetic_Expressions_question5": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}}
+        },
+        "ae79":{  
+          "SAEArithmeticExpressions": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Pattern Matching": { 
+        "ex":{  
+          "DataSelection17": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  
+          "Pattern_Matching_question1": {values:{"k":0,"p":0.29,"a":2,"s":0.5,"t":0,"n":2}},
+          "Pattern_Matching_question2": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Pattern_Matching_question3": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Pattern_Matching_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Pattern_Matching_question5": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAEStringOperation": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Multiple Table Queries": { 
+        "ex":{  
+          "DataSelection10": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection16": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  
+          "Multiple_Table_question1": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Multiple_Table_question2": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "Multiple_Table_question3": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Multiple_Table_question4": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Multiple_Table_question5": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAEMultipleTableSelection1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEMultipleTableSelection2": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}}
+        }
+      },
+      "ORDER-BY": { 
+        "ex":{  
+          "DataSelection18": {values:{"k":0,"p":0.14,"a":11,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "Order-By_question1": {values:{"k":0,"p":0.14,"a":8,"s":0.25,"t":0,"n":1}},
+          "Order-By_question2": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Order-By_question3": {values:{"k":0,"p":0.29,"a":9,"s":0.2,"t":0,"n":2}},
+          "Order-By_question4": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAEAlphabeticOrder": {values:{"k":0,"p":0.19,"a":3.5,"s":0,"t":0,"n":2}}
+        }
+      },
+      "Set Operations": { 
+        "ex":{  
+          "DataSelection19": {values:{"k":0,"p":0.11,"a":8,"s":0,"t":0,"n":1}},
+          "DataSelection20": {values:{"k":0,"p":0.07,"a":10,"s":0,"t":0,"n":1}},
+          "DataSelection21": {values:{"k":0,"p":0.04,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection30": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection31": {values:{"k":0,"p":0.1,"a":2,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "Set_Operations_question1": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Set_Operations_question2": {values:{"k":0,"p":0.29,"a":8.5,"s":0.17,"t":0,"n":2}},
+          "Set_Operations_question3": {values:{"k":0,"p":0.29,"a":2,"s":0.5,"t":0,"n":2}},
+          "Set_Operations_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Set_Operations_question5": {values:{"k":0,"p":0.29,"a":2,"s":0.67,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAECombiningQueryResult1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAECombiningQueryResult2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAECombiningQueryResult3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEComparingSubqueryResults1": {values:{"k":0,"p":0.05,"a":2,"s":0,"t":0,"n":1}},
+          "SAEComparingSubqueryResults2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Sub-Queries": { 
+        "ex":{  
+          "DataSelection28": {values:{"k":0,"p":0.04,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection29": {values:{"k":0,"p":0.07,"a":4,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "Sub-Queries_question1": {values:{"k":0,"p":0.29,"a":6.5,"s":0.54,"t":0,"n":2}},
+          "Sub-Queries_question2": {values:{"k":0,"p":0.14,"a":3,"s":0.33,"t":0,"n":1}},
+          "Sub-Queries_question3": {values:{"k":0,"p":0.29,"a":2,"s":0.67,"t":0,"n":2}},
+          "Sub-Queries_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Sub-Queries_question5": {values:{"k":0,"p":0.29,"a":8,"s":0.29,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAENestedSubqueries1": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":2}},
+          "SAENestedSubqueries2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Aggregate Functions": { 
+        "ex":{  
+          "DataSelection5": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection22": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection23": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection24": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":2}}
+        },
+        "Problems":{  
+          "Aggregate_Functions_question1": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Aggregate_Functions_question2": {values:{"k":0,"p":0.29,"a":3.5,"s":0.58,"t":0,"n":2}},
+          "Aggregate_Functions_question3": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "Aggregate_Functions_question4": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Aggregate_Functions_question5": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAEAggregateFunctions1": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAEAggregateFunctions2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEAggregateFunctions3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEAggregateFunctions4": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}}
+        }
+      },
+      "GROUP-BY and HAVING": { 
+        "ex":{  
+          "DataSelection25": {values:{"k":0,"p":0.14,"a":4,"s":0,"t":0,"n":1}},
+          "DataSelection26": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection32": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection36": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection37": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  
+          "Group-By_Having_question1": {values:{"k":0,"p":0.14,"a":2,"s":0.25,"t":0,"n":2}},
+          "Group-By_Having_question2": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Group-By_Having_question3": {values:{"k":0,"p":0.14,"a":2,"s":0.5,"t":0,"n":1}},
+          "Group-By_Having_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Group-By_Having_question5": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}}
+        },
+        "ae79":{  
+          "SAEGroupQueries": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEGroupQuerieswithCondition": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEAggregatingSubquery": {values:{"k":0,"p":0.06,"a":3,"s":0,"t":0,"n":1}},
+          "SAEGroupingandAggregating1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEGroupingandAggregating2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Table Creation": { 
+        "ex":{  
+          "TableCreation1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAECreateTable1": {values:{"k":0,"p":0.14,"a":7,"s":0,"t":0,"n":1}}
+        }
+      },
+      "Table Deletion and Alteration": { 
+        "ex":{  
+          "TableDrop1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableAlteration1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableAlteration2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAETableDrop": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAEColumnAddition": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAEColumnDrop": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}}
+        }
+      },
+      "Key Constraints": { 
+        "ex":{  
+          "TableCreation2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation4": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation9": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEPrimaryKey1": {values:{"k":0,"p":0.14,"a":7,"s":0,"t":0,"n":1}},
+          "SAEPrimaryKeyandUniqueKey": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEForeignKey": {values:{"k":0,"p":0.14,"a":6,"s":0,"t":0,"n":1}},
+          "SAEPrimaryKey2": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}}
+        }
+      },
+      "Tuple Insertion": { 
+        "ex":{  
+          "DataInsertion1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataInsertion2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataInsertion3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataInsertion4": {values:{"k":0,"p":0.02,"a":1,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEInsertingData1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEInsertingData3": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}},
+          "SAEInsertingData4": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Tuple Deletion": { 
+        "ex":{  
+          "DataDeletion1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataDeletion2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataDeletion3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEDeletingData": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEDeletingwithCondition1": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}},
+          "SAEDeletingwithCondition2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Tuple Update": { 
+        "ex":{  
+          "DataUpdate3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataUpdate1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataUpdate2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataUpdate4": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataUpdate5": {values:{"k":0,"p":0.14,"a":5,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEUpdatingData1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEUpdatingData2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEUpdatingData3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEUpdatingwithCondition": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEUpdatingwithSubquery": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "General Constraints": { 
+        "ex":{  
+          "TableCreation7": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation8": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation5": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation6": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEAssertionCreation1": {values:{"k":0,"p":0.14,"a":5,"s":0,"t":0,"n":1}}
+        }
+      },
+      "Derived Relations and Views": { 
+        "ex":{  
+          "DataSelection33": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection34": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection35": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection40": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection41": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEDerivedRelations": {values:{"k":0,"p":0.14,"a":5,"s":0,"t":0,"n":1}},
+          "SAEViewCreation1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEViewCreation2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAERetrievingDataFromView": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEAggregatingDerivedRelations": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      }
+    },
+    kcs:{ 
+       873: {"k":0.16,"p":0.06},
+       945: {"k":0.27,"p":0.11},
+       863: {"k":0.27,"p":0.09},
+       842: {"k":0,"p":0.07},
+       1037: {"k":0,"p":0},
+       846: {"k":0,"p":0.02},
+       852: {"k":0.27,"p":0.12},
+       959: {"k":0,"p":0},
+       956: {"k":0,"p":0},
+       1033: {"k":0,"p":0.04},
+       935: {"k":0,"p":0},
+       981: {"k":0,"p":0.07},
+       1035: {"k":0,"p":0},
+       1012: {"k":0,"p":0.05},
+       1015: {"k":0.23,"p":0.11},
+       1000: {"k":0.11,"p":0.29},
+       1021: {"k":0.05,"p":0.03},
+       964: {"k":0.21,"p":0.09},
+       962: {"k":0.27,"p":0.11},
+       948: {"k":0,"p":0},
+       920: {"k":0,"p":0.04},
+       963: {"k":0,"p":0.05},
+       1024: {"k":0.16,"p":0.19},
+       848: {"k":0.14,"p":0.19},
+       999: {"k":0,"p":0.01},
+       990: {"k":0,"p":0},
+       912: {"k":0,"p":0.04},
+       911: {"k":0.1,"p":0.29},
+       997: {"k":0.18,"p":0.24},
+       887: {"k":0,"p":0},
+       906: {"k":0.11,"p":0.21},
+       946: {"k":0.23,"p":0.17},
+       951: {"k":0.14,"p":0.05},
+       924: {"k":0,"p":0},
+       952: {"k":0,"p":0.05},
+       970: {"k":0,"p":0},
+       1018: {"k":0,"p":0},
+       1016: {"k":0.15,"p":0.04},
+       899: {"k":0,"p":0.07},
+       1031: {"k":0.21,"p":0.19},
+       840: {"k":0.24,"p":0.1},
+       953: {"k":0,"p":0.07},
+       1006: {"k":0.15,"p":0.05},
+       975: {"k":0.25,"p":0.07},
+       1013: {"k":0.05,"p":0.05},
+       907: {"k":0,"p":0.07},
+       896: {"k":0.23,"p":0.11},
+       862: {"k":0,"p":0},
+       1005: {"k":0.11,"p":0.09},
+       902: {"k":0.22,"p":0.08},
+       835: {"k":0.05,"p":0.05},
+       1004: {"k":0,"p":0},
+       960: {"k":0.11,"p":0.05},
+       977: {"k":0,"p":0},
+       985: {"k":0.15,"p":0.08},
+       979: {"k":0.3,"p":0.14},
+       1051: {"k":0.13,"p":0.21},
+       982: {"k":0.08,"p":0.05},
+       883: {"k":0,"p":0.04},
+       841: {"k":0,"p":0},
+       926: {"k":0.11,"p":0.1},
+       957: {"k":0.12,"p":0.29},
+       856: {"k":0.27,"p":0.11},
+       837: {"k":0.14,"p":0.1},
+       868: {"k":0,"p":0.05},
+       845: {"k":0.34,"p":0.11},
+       891: {"k":0,"p":0},
+       853: {"k":0,"p":0.06},
+       983: {"k":0,"p":0},
+       942: {"k":0.11,"p":0.06},
+       910: {"k":0.19,"p":0.07},
+       941: {"k":0,"p":0.29}
+    }
+ },
+  learnerIds:[  "110", "4", "2", "10", "35", "69", "101"]
+},
+{
+  name:"Top 9",
+  state:{  
+    topics:{  
+       "SELECT-FROM": {values:{  "ex":{"k":0,"p":0.08},"Problems":{"k":0,"p":0.29},"ae79":{"k":0,"p":0.07}}},
+       "SELECT-FROM-WHERE": {values:{  "ex":{"k":0,"p":0.09},"Problems":{"k":0,"p":0.19},"ae79":{"k":0,"p":0.02}}},
+       "Arithmetic Expressions": {values:{  "ex":{"k":0,"p":0.07},"Problems":{"k":0,"p":0.2},"ae79":{"k":0,"p":0}}},
+       "Pattern Matching": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0.23},"ae79":{"k":0,"p":0}}},
+       "Multiple Table Queries": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0.29},"ae79":{"k":0,"p":0.04}}},
+       "ORDER-BY": {values:{  "ex":{"k":0,"p":0.14},"Problems":{"k":0,"p":0.25},"ae79":{"k":0,"p":0.19}}},
+       "Set Operations": {values:{  "ex":{"k":0,"p":0.07},"Problems":{"k":0,"p":0.26},"ae79":{"k":0,"p":0.01}}},
+       "Sub-Queries": {values:{  "ex":{"k":0,"p":0.05},"Problems":{"k":0,"p":0.23},"ae79":{"k":0,"p":0.07}}},
+       "Aggregate Functions": {values:{  "ex":{"k":0,"p":0.08},"Problems":{"k":0,"p":0.26},"ae79":{"k":0,"p":0.07}}},
+       "GROUP-BY and HAVING": {values:{  "ex":{"k":0,"p":0.04},"Problems":{"k":0,"p":0.14},"ae79":{"k":0,"p":0.01}}},
+       "Table Creation": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.14}}},
+       "Table Deletion and Alteration": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.14}}},
+       "Key Constraints": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.11}}},
+       "Tuple Insertion": {values:{  "ex":{"k":0,"p":0.01},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.05}}},
+       "Tuple Deletion": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.05}}},
+       "Tuple Update": {values:{  "ex":{"k":0,"p":0.03},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0}}},
+       "General Constraints": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.14}}},
+       "Derived Relations and Views": {values:{  "ex":{"k":0,"p":0},"Problems":{"k":0,"p":0},"ae79":{"k":0,"p":0.03}}}
+    },
+    activities:{  
+      "SELECT-FROM": { 
+        "ex":{  
+          "DataSelection1": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection2": {values:{"k":0,"p":0.07,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelection3": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}},
+          "DataSelection4": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "SELECT-FROM_question1": {values:{"k":0,"p":0.43,"a":1,"s":1,"t":0,"n":3}},
+          "SELECT-FROM_question2": {values:{"k":0,"p":0.29,"a":3,"s":0.8,"t":0,"n":2}},
+          "SELECT-FROM_question3": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "SELECT-FROM_question4": {values:{"k":0,"p":0.29,"a":3,"s":0.8,"t":0,"n":2}},
+          "SELECT-FROM_question5": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "SELECT-DISTINCT_question6": {values:{"k":0,"p":0.14,"a":2,"s":0.5,"t":0,"n":1}}
+        },
+        "ae79":{  
+          "SAESelectingOneAttribute": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAESelectingMultipleAttributes": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAESelectingAllAttributes": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAESkippingDuplicates": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "SELECT-FROM-WHERE": { 
+        "ex":{  
+          "DataSelection6": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}},
+          "DataSelection7": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection8": {values:{"k":0,"p":0.1,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelection9": {values:{"k":0,"p":0.1,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelecton11": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection13": {values:{"k":0,"p":0.07,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelection14": {values:{"k":0,"p":0.14,"a":2,"s":0,"t":0,"n":1}},
+          "DataSelection15": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "SELECT-FROM-WHERE_question1": {values:{"k":0,"p":0.29,"a":2,"s":0.83,"t":0,"n":2}},
+          "SELECT-FROM-WHERE_question2": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "SELECT-FROM-WHERE_question3": {values:{"k":0,"p":0.14,"a":3,"s":0.33,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question5": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question6": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question7": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "SELECT-FROM-WHERE_question8": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "SELECT-FROM-WHERE_question9": {values:{"k":0,"p":0.14,"a":2,"s":0.5,"t":0,"n":1}}
+        },
+        "ae79":{  
+          "SAESelectionCondition": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEComparisonCondition1": {values:{"k":0,"p":0.14,"a":2,"s":0,"t":0,"n":1}},
+          "SAEComparisonCondition2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEComparisonCondition3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEMultipleComparisons1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAERangeTest1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAERangeTest2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Arithmetic Expressions": { 
+        "ex":{  
+          "DataSelection12": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "Arithmetic_Expressions_question1": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "Arithmetic_Expressions_question2": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "Arithmetic_Expressions_question3": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Arithmetic_Expressions_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Arithmetic_Expressions_question5": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}}
+        },
+        "ae79":{  
+          "SAEArithmeticExpressions": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Pattern Matching": { 
+        "ex":{  
+          "DataSelection17": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  
+          "Pattern_Matching_question1": {values:{"k":0,"p":0.29,"a":2,"s":0.5,"t":0,"n":2}},
+          "Pattern_Matching_question2": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Pattern_Matching_question3": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Pattern_Matching_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Pattern_Matching_question5": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAEStringOperation": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Multiple Table Queries": { 
+        "ex":{  
+          "DataSelection10": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection16": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  
+          "Multiple_Table_question1": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Multiple_Table_question2": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "Multiple_Table_question3": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Multiple_Table_question4": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Multiple_Table_question5": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAEMultipleTableSelection1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEMultipleTableSelection2": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}}
+        }
+      },
+      "ORDER-BY": { 
+        "ex":{  
+          "DataSelection18": {values:{"k":0,"p":0.14,"a":11,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "Order-By_question1": {values:{"k":0,"p":0.14,"a":8,"s":0.25,"t":0,"n":1}},
+          "Order-By_question2": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Order-By_question3": {values:{"k":0,"p":0.29,"a":9,"s":0.2,"t":0,"n":2}},
+          "Order-By_question4": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAEAlphabeticOrder": {values:{"k":0,"p":0.19,"a":3.5,"s":0,"t":0,"n":2}}
+        }
+      },
+      "Set Operations": { 
+        "ex":{  
+          "DataSelection19": {values:{"k":0,"p":0.11,"a":8,"s":0,"t":0,"n":1}},
+          "DataSelection20": {values:{"k":0,"p":0.07,"a":10,"s":0,"t":0,"n":1}},
+          "DataSelection21": {values:{"k":0,"p":0.04,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection30": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection31": {values:{"k":0,"p":0.1,"a":2,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "Set_Operations_question1": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Set_Operations_question2": {values:{"k":0,"p":0.29,"a":8.5,"s":0.17,"t":0,"n":2}},
+          "Set_Operations_question3": {values:{"k":0,"p":0.29,"a":2,"s":0.5,"t":0,"n":2}},
+          "Set_Operations_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Set_Operations_question5": {values:{"k":0,"p":0.29,"a":2,"s":0.67,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAECombiningQueryResult1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAECombiningQueryResult2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAECombiningQueryResult3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEComparingSubqueryResults1": {values:{"k":0,"p":0.05,"a":2,"s":0,"t":0,"n":1}},
+          "SAEComparingSubqueryResults2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Sub-Queries": { 
+        "ex":{  
+          "DataSelection28": {values:{"k":0,"p":0.04,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection29": {values:{"k":0,"p":0.07,"a":4,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  
+          "Sub-Queries_question1": {values:{"k":0,"p":0.29,"a":6.5,"s":0.54,"t":0,"n":2}},
+          "Sub-Queries_question2": {values:{"k":0,"p":0.14,"a":3,"s":0.33,"t":0,"n":1}},
+          "Sub-Queries_question3": {values:{"k":0,"p":0.29,"a":2,"s":0.67,"t":0,"n":2}},
+          "Sub-Queries_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Sub-Queries_question5": {values:{"k":0,"p":0.29,"a":8,"s":0.29,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAENestedSubqueries1": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":2}},
+          "SAENestedSubqueries2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Aggregate Functions": { 
+        "ex":{  
+          "DataSelection5": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection22": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection23": {values:{"k":0,"p":0.07,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection24": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":2}}
+        },
+        "Problems":{  
+          "Aggregate_Functions_question1": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Aggregate_Functions_question2": {values:{"k":0,"p":0.29,"a":3.5,"s":0.58,"t":0,"n":2}},
+          "Aggregate_Functions_question3": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}},
+          "Aggregate_Functions_question4": {values:{"k":0,"p":0.29,"a":1.5,"s":0.75,"t":0,"n":2}},
+          "Aggregate_Functions_question5": {values:{"k":0,"p":0.29,"a":1,"s":1,"t":0,"n":2}}
+        },
+        "ae79":{  
+          "SAEAggregateFunctions1": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAEAggregateFunctions2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEAggregateFunctions3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEAggregateFunctions4": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}}
+        }
+      },
+      "GROUP-BY and HAVING": { 
+        "ex":{  
+          "DataSelection25": {values:{"k":0,"p":0.14,"a":4,"s":0,"t":0,"n":1}},
+          "DataSelection26": {values:{"k":0,"p":0.05,"a":1,"s":0,"t":0,"n":1}},
+          "DataSelection32": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection36": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection37": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  
+          "Group-By_Having_question1": {values:{"k":0,"p":0.14,"a":2,"s":0.25,"t":0,"n":2}},
+          "Group-By_Having_question2": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Group-By_Having_question3": {values:{"k":0,"p":0.14,"a":2,"s":0.5,"t":0,"n":1}},
+          "Group-By_Having_question4": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}},
+          "Group-By_Having_question5": {values:{"k":0,"p":0.14,"a":1,"s":1,"t":0,"n":1}}
+        },
+        "ae79":{  
+          "SAEGroupQueries": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEGroupQuerieswithCondition": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEAggregatingSubquery": {values:{"k":0,"p":0.06,"a":3,"s":0,"t":0,"n":1}},
+          "SAEGroupingandAggregating1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEGroupingandAggregating2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Table Creation": { 
+        "ex":{  
+          "TableCreation1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAECreateTable1": {values:{"k":0,"p":0.14,"a":7,"s":0,"t":0,"n":1}}
+        }
+      },
+      "Table Deletion and Alteration": { 
+        "ex":{  
+          "TableDrop1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableAlteration1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableAlteration2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAETableDrop": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAEColumnAddition": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}},
+          "SAEColumnDrop": {values:{"k":0,"p":0.14,"a":1,"s":0,"t":0,"n":1}}
+        }
+      },
+      "Key Constraints": { 
+        "ex":{  
+          "TableCreation2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation4": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation9": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEPrimaryKey1": {values:{"k":0,"p":0.14,"a":7,"s":0,"t":0,"n":1}},
+          "SAEPrimaryKeyandUniqueKey": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEForeignKey": {values:{"k":0,"p":0.14,"a":6,"s":0,"t":0,"n":1}},
+          "SAEPrimaryKey2": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}}
+        }
+      },
+      "Tuple Insertion": { 
+        "ex":{  
+          "DataInsertion1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataInsertion2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataInsertion3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataInsertion4": {values:{"k":0,"p":0.02,"a":1,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEInsertingData1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEInsertingData3": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}},
+          "SAEInsertingData4": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Tuple Deletion": { 
+        "ex":{  
+          "DataDeletion1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataDeletion2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataDeletion3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEDeletingData": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEDeletingwithCondition1": {values:{"k":0,"p":0.14,"a":3,"s":0,"t":0,"n":1}},
+          "SAEDeletingwithCondition2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "Tuple Update": { 
+        "ex":{  
+          "DataUpdate3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataUpdate1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataUpdate2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataUpdate4": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataUpdate5": {values:{"k":0,"p":0.14,"a":5,"s":0,"t":0,"n":1}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEUpdatingData1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEUpdatingData2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEUpdatingData3": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEUpdatingwithCondition": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEUpdatingwithSubquery": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      },
+      "General Constraints": { 
+        "ex":{  
+          "TableCreation7": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation8": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation5": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "TableCreation6": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEAssertionCreation1": {values:{"k":0,"p":0.14,"a":5,"s":0,"t":0,"n":1}}
+        }
+      },
+      "Derived Relations and Views": { 
+        "ex":{  
+          "DataSelection33": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection34": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection35": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection40": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "DataSelection41": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        },
+        "Problems":{  },
+        "ae79":{  
+          "SAEDerivedRelations": {values:{"k":0,"p":0.14,"a":5,"s":0,"t":0,"n":1}},
+          "SAEViewCreation1": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEViewCreation2": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAERetrievingDataFromView": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}},
+          "SAEAggregatingDerivedRelations": {values:{"k":0,"p":0,"a":0,"s":0,"t":0,"n":0}}
+        }
+      }
+    },
+    kcs:{ 
+       873: {"k":0.16,"p":0.06},
+       945: {"k":0.27,"p":0.11},
+       863: {"k":0.27,"p":0.09},
+       842: {"k":0,"p":0.07},
+       1037: {"k":0,"p":0},
+       846: {"k":0,"p":0.02},
+       852: {"k":0.27,"p":0.12},
+       959: {"k":0,"p":0},
+       956: {"k":0,"p":0},
+       1033: {"k":0,"p":0.04},
+       935: {"k":0,"p":0},
+       981: {"k":0,"p":0.07},
+       1035: {"k":0,"p":0},
+       1012: {"k":0,"p":0.05},
+       1015: {"k":0.23,"p":0.11},
+       1000: {"k":0.11,"p":0.29},
+       1021: {"k":0.05,"p":0.03},
+       964: {"k":0.21,"p":0.09},
+       962: {"k":0.27,"p":0.11},
+       948: {"k":0,"p":0},
+       920: {"k":0,"p":0.04},
+       963: {"k":0,"p":0.05},
+       1024: {"k":0.16,"p":0.19},
+       848: {"k":0.14,"p":0.19},
+       999: {"k":0,"p":0.01},
+       990: {"k":0,"p":0},
+       912: {"k":0,"p":0.04},
+       911: {"k":0.1,"p":0.29},
+       997: {"k":0.18,"p":0.24},
+       887: {"k":0,"p":0},
+       906: {"k":0.11,"p":0.21},
+       946: {"k":0.23,"p":0.17},
+       951: {"k":0.14,"p":0.05},
+       924: {"k":0,"p":0},
+       952: {"k":0,"p":0.05},
+       970: {"k":0,"p":0},
+       1018: {"k":0,"p":0},
+       1016: {"k":0.15,"p":0.04},
+       899: {"k":0,"p":0.07},
+       1031: {"k":0.21,"p":0.19},
+       840: {"k":0.24,"p":0.1},
+       953: {"k":0,"p":0.07},
+       1006: {"k":0.15,"p":0.05},
+       975: {"k":0.25,"p":0.07},
+       1013: {"k":0.05,"p":0.05},
+       907: {"k":0,"p":0.07},
+       896: {"k":0.23,"p":0.11},
+       862: {"k":0,"p":0},
+       1005: {"k":0.11,"p":0.09},
+       902: {"k":0.22,"p":0.08},
+       835: {"k":0.05,"p":0.05},
+       1004: {"k":0,"p":0},
+       960: {"k":0.11,"p":0.05},
+       977: {"k":0,"p":0},
+       985: {"k":0.15,"p":0.08},
+       979: {"k":0.3,"p":0.14},
+       1051: {"k":0.13,"p":0.21},
+       982: {"k":0.08,"p":0.05},
+       883: {"k":0,"p":0.04},
+       841: {"k":0,"p":0},
+       926: {"k":0.11,"p":0.1},
+       957: {"k":0.12,"p":0.29},
+       856: {"k":0.27,"p":0.11},
+       837: {"k":0.14,"p":0.1},
+       868: {"k":0,"p":0.05},
+       845: {"k":0.34,"p":0.11},
+       891: {"k":0,"p":0},
+       853: {"k":0,"p":0.06},
+       983: {"k":0,"p":0},
+       942: {"k":0.11,"p":0.06},
+       910: {"k":0.19,"p":0.07},
+       941: {"k":0,"p":0.29}
+    }
+ },
+  learnerIds:[  "110", "4", "2", "10", "35", "69", "101"]
+}],
+vis:{
+  topicSizeAttr:["difficulty","importance"],
+  color:{binCount:7,value2color:function (x) { var y = Math.log(x)*0.25 + 1;  return (y < 0 ? 0 : y); }},
+  userManual:"MG_Py_CM_SC.pdf",
+  ui:{
+    params:{
+      group:{uiTBarModeGrpChk:false,uiTBarVis:true,uiTBarGrpVis:false,uiTBarModeVis:false,uiTBarResVis:false,defValResId:"AVG",uiTBarRepLvlVis:false,uiTBarTopicSizeVis:false,uiGridTimelineVis:false,uiShowHelp:true,uiIncenCheck:true,kcMap:"bipartite",kcMapMode:0,kcResouceIds:["Problems"],recExp:true},
+      user:{}
+    }
+  }
+},
+configprops:{
+    "agg_proactiverec_enabled": true,
+    "agg_proactiverec_threshold": 0.7,
+    "agg_proactiverec_method": "bng",
+    "agg_proactiverec_max": 3,
+    "agg_reactiverec_enabled": true,
+    "agg_reactiverec_threshold": 0,
+    "agg_reactiverec_method": "pgsc",
+    "agg_reactiverec_max": 3,
+    "agg_line_rec_enabled": false,
+    "agg_kc_student_modeling": "cumulate"
+},
+logs:[
+
+],
+ownBadges:[
+
+],
+rmcCount:{}
+
+}

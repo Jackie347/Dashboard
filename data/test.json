@@ -1,0 +1,51 @@
+[
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 75
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0.5,
+        "a": 8,
+        "s": -1,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+   ]
