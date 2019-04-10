@@ -20,38 +20,77 @@
 
 </head>
 <body>
-    <div class="grid">
-        <div class="title">User akhuseyinoglu</div>
-        <div id="chartholder"></div>
-        <br />
-        <div><span id="message"></span></div>
+
+    <div class="title">
+        <span>Monitor</span>
+
+        <div class="group">
+            <select>
+                <option value ="cs401">CS401</option>
+                <option value ="cs445">CS445</option>
+            </select>
+        </div>
+
     </div>
+
+    <hr/>
+
 
     <script type="text/javascript">
 
         d3.json("data/test.json").then(function(json) {
 
-            const colors = ["#E9C6BD", "#D3EACF", "#D7D7D7", "#F3B06E"];
-            const chart = d3.ez.chart.roseChart().colors(colors);
-            const title = d3.ez.component.title().mainText("Task Progress").subText("");
-            var i = 1;
+            var names = new Array();
+            var num = 0;
+            var j = 1;
 
             // Convert json to d3-ez data format
             var data = d3.nest()
                 .key(function(d) {
-                    return d.task;
-                }).entries(json).map(function(obj){
-                    var rec = obj.values[0];
-                    var taskName = "Task" + i;
-                    var time = rec.t;
-                    var status = rec.p;
-                    var attempt = rec.a;
-                    var defaultTime = 60;
+                    return d.user;
+                }).entries(json)
+                .map(function(obj) {
+                    var name = obj.key;
+                    names.push([name]);
+                    num ++;
+                    var students = obj.values[0];
+                    return students;
+                });
 
-                    if (status == 0) {
-                        if (attempt == 0){   //undone
+            for (var i = 0; i < names.length; i++) {
+
+                var current = data[i]['current_task'];
+                var student = data[i]['activities'];
+                var taskNames = new Array();
+                for (var t = 1; t <= student.length; t++){
+                    taskNames.push([t]);
+                }
+                var activities = d3.nest()
+                    .key(function(d) {
+                        return d.task;
+                    }).entries(student)
+                    .map(function(obj) {
+                        var rec = obj.values[0];
+                        var taskName = rec.task;
+                        var taskIndex = "T" + j;
+                        var time = rec.t;
+                        var status = rec.p;
+                        var attempt = rec.a;
+                        var defaultTime = 60;
+
+                        if (taskName == current) {    //doing
                             var values = {
-                                key: taskName,
+                                key: taskIndex,
+                                values: [
+                                    { key: "failed", value: 0 },
+                                    { key: "completed", value: 0 },
+                                    { key: "undone", value: 0 },
+                                    { key: "doing", value: time }
+                                ]
+                            };
+                        } else if (attempt == 0 && time == 0) { //undone
+                            var values = {
+                                key: taskIndex,
                                 values: [
                                     { key: "failed", value: 0 },
                                     { key: "completed", value: 0 },
@@ -59,9 +98,9 @@
                                     { key: "doing", value: 0 }
                                 ]
                             };
-                        } else {
+                        } else if (status == 0) {   //failed
                             var values = {  //failed
-                                key: taskName,
+                                key: taskIndex,
                                 values: [
                                     { key: "failed", value: time },
                                     { key: "completed", value: 0 },
@@ -69,49 +108,51 @@
                                     { key: "doing", value: 0 }
                                 ]
                             };
+                        } else {    //completed
+                            var values = {
+                                key: taskIndex,
+                                values: [
+                                    { key: "failed", value: 0 },
+                                    { key: "completed", value: time },
+                                    { key: "undone", value: 0 },
+                                    { key: "doing", value: 0 }
+                                ]
+                            };
                         }
-                    } else if (status == 1) {   //completed
-                        var values = {
-                            key: taskName,
-                            values: [
-                                { key: "failed", value: 0 },
-                                { key: "completed", value: time },
-                                { key: "undone", value: 0 },
-                                { key: "doing", value: 0 }
-                            ]
-                        };
-                    } else {    //doing
-                        var values = {
-                            key: taskName,
-                            values: [
-                                { key: "failed", value: 0 },
-                                { key: "completed", value: 0 },
-                                { key: "undone", value: 0 },
-                                { key: "doing", value: time }
-                            ]
-                        };
-                    }
 
-                    i++;
+                        j++;
+                        return values;
+                    });
 
-                    return values;
 
-                });
+                // Create chart base
+                var id = names[i].toString();
+                const colors = ["#E9C6BD", "#D3EACF", "#D7D7D7", "#F3B06E"];
+                const chart = d3.ez.chart.roseChart().colors(colors);
+                const title = d3.ez.component.title().mainText(id).subText("");
+                var myChart = d3.ez()
+                    .width(190)
+                    .height(190)
+                    .chart(chart)
+                    .title(title)
+                    .on("customValueMouseOver", function (d) {
+                        d3.select("#message").text("Task Status: " + d.key + ", Time Spent:" + d.value);
+                    });
 
-            // Create chart base
-            var myChart = d3.ez()
-                .width(400)
-                .height(400)
-                .chart(chart)
-                .title(title)
-                .on("customValueMouseOver", function(d) {
-                    d3.select("#message").text( "Task Status: " + d.key + ", Time Spent:" + d.value);
-                });
+                // Add a div
 
-            // Add to page
-            d3.select("#chartholder")
-                .datum(data)
-                .call(myChart);
+                d3.select('body').append('div')
+                    .attr('id', id)
+                    .attr('class','grid')
+                    .html();
+
+                // Add to page
+                id = "#" + id;
+                d3.select(id)
+                    .datum(activities)
+                    .call(myChart);
+
+            }
 
         });
 

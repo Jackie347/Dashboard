@@ -1,7 +1,11 @@
 [
+  {
+    "user": "Student1",
+    "current_task": "DataSelection7",
+    "activities": [
       {
         "task": "DataSelection2",
-        "p": 1,
+        "p": 0,
         "a": 6,
         "t": 75
       },
@@ -25,9 +29,8 @@
       },
       {
         "task": "DataSelection7",
-        "p": 0.5,
+        "p": 0,
         "a": 8,
-        "s": -1,
         "t": 80
       },
       {
@@ -48,4 +51,1572 @@
         "a": 0,
         "t": 0
       }
-   ]
+    ]
+  },
+  {
+    "user": "Student2",
+    "current_task": "SELECT-FROM-WHERE_question9",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 2,
+        "t": 40
+      },
+      {
+        "task": "DataSelection3",
+        "p": 0,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 1,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 1,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 1,
+        "t": 40
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student3",
+    "current_task": "SAESelectingMultipleAttributes",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 0,
+        "a": 6,
+        "t": 75
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 60
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student4",
+    "current_task": "SAESelectingMultipleAttributes",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 0,
+        "a": 6,
+        "t": 75
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 1,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student5",
+    "current_task": "SAESelectingMultipleAttributes",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student6",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 0,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student7",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 70
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student8",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student9",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student10",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student11",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 1,
+        "a": 8,
+        "t": 70
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student12",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 1,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student13",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 0,
+        "t": 20
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student14",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 80
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student15",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student16",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student17",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student18",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student19",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student20",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student21",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student22",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student23",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student24",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student25",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student26",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student27",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student28",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student29",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "user": "Student30",
+    "current_task": "SELECT-FROM_question5",
+    "activities": [
+      {
+        "task": "DataSelection2",
+        "p": 1,
+        "a": 6,
+        "t": 80
+      },
+      {
+        "task": "DataSelection3",
+        "p": 1,
+        "a": 9,
+        "t": 90
+      },
+      {
+        "task": "SELECT-FROM_question5",
+        "p": 1,
+        "a": 5,
+        "t": 57
+      },
+      {
+        "task": "SAESelectingMultipleAttributes",
+        "p": 0,
+        "a": 2,
+        "t": 50
+      },
+      {
+        "task": "DataSelection7",
+        "p": 0,
+        "a": 8,
+        "t": 40
+      },
+      {
+        "task": "SELECT-FROM-WHERE_question9",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      },
+      {
+        "task": "SAESelectionCondition2",
+        "p": 0,
+        "a": 0,
+        "t": 0
+      }
+    ]
+  }
+]
