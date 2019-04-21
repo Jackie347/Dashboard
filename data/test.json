@@ -1,6 +1,7 @@
 [
   {
     "user": "Student1",
+    "seat": 1,
     "current_task": "DataSelection7",
     "activities": [
       {
@@ -55,7 +56,8 @@
   },
   {
     "user": "Student2",
-    "current_task": "SELECT-FROM-WHERE_question9",
+    "seat": 5,
+    "current_task": "SAESelectingMultipleAttributes",
     "activities": [
       {
         "task": "DataSelection2",
@@ -109,6 +111,7 @@
   },
   {
     "user": "Student3",
+    "seat": 6,
     "current_task": "SAESelectingMultipleAttributes",
     "activities": [
       {
@@ -163,7 +166,8 @@
   },
   {
     "user": "Student4",
-    "current_task": "SAESelectingMultipleAttributes",
+    "seat": 14,
+    "current_task": "DataSelection2",
     "activities": [
       {
         "task": "DataSelection2",
@@ -217,6 +221,7 @@
   },
   {
     "user": "Student5",
+    "seat": 15,
     "current_task": "SAESelectingMultipleAttributes",
     "activities": [
       {
@@ -271,6 +276,7 @@
   },
   {
     "user": "Student6",
+    "seat": 19,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -325,6 +331,7 @@
   },
   {
     "user": "Student7",
+    "seat": 20,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -379,6 +386,7 @@
   },
   {
     "user": "Student8",
+    "seat": 28,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -433,6 +441,7 @@
   },
   {
     "user": "Student9",
+    "seat": 7,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -487,6 +496,7 @@
   },
   {
     "user": "Student10",
+    "seat": 8,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -541,6 +551,7 @@
   },
   {
     "user": "Student11",
+    "seat": 10,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -595,6 +606,7 @@
   },
   {
     "user": "Student12",
+    "seat": 12,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -649,6 +661,7 @@
   },
   {
     "user": "Student13",
+    "seat": 17,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -703,6 +716,7 @@
   },
   {
     "user": "Student14",
+    "seat": 23,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -757,6 +771,7 @@
   },
   {
     "user": "Student15",
+    "seat": 21,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -811,6 +826,7 @@
   },
   {
     "user": "Student16",
+    "seat": 16,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -865,6 +881,7 @@
   },
   {
     "user": "Student17",
+    "seat": 17,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -919,6 +936,7 @@
   },
   {
     "user": "Student18",
+    "seat": 18,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -973,6 +991,7 @@
   },
   {
     "user": "Student19",
+    "seat": 4,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1027,6 +1046,7 @@
   },
   {
     "user": "Student20",
+    "seat": 2,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1081,6 +1101,7 @@
   },
   {
     "user": "Student21",
+    "seat": 3,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1135,6 +1156,7 @@
   },
   {
     "user": "Student22",
+    "seat": 9,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1189,6 +1211,7 @@
   },
   {
     "user": "Student23",
+    "seat": 9,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1243,6 +1266,7 @@
   },
   {
     "user": "Student24",
+    "seat": 11,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1297,6 +1321,7 @@
   },
   {
     "user": "Student25",
+    "seat": 13,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1351,6 +1376,7 @@
   },
   {
     "user": "Student26",
+    "seat": 16,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1405,6 +1431,7 @@
   },
   {
     "user": "Student27",
+    "seat": 22,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1459,6 +1486,7 @@
   },
   {
     "user": "Student28",
+    "seat": 24,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1513,6 +1541,7 @@
   },
   {
     "user": "Student29",
+    "seat": 25,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {
@@ -1567,6 +1596,7 @@
   },
   {
     "user": "Student30",
+    "seat": 26,
     "current_task": "SELECT-FROM_question5",
     "activities": [
       {

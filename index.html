@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <!-- Required meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -10,153 +7,220 @@
     <title>Dashboard</title>
 
     <!-- Libraries -->
-    <script src="js/d3.min.js"></script>
-    <script src="js/d3-ez.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script src="js/utils.js"></script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/d3-ez.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 </head>
-<body>
 
+<body id="body">
     <div class="title">
         <span>Monitor</span>
-
         <div class="group">
+            <button class="btn-sm btn-info" onclick="map()">Seat Map</button>
             <select>
                 <option value ="cs401">CS401</option>
                 <option value ="cs445">CS445</option>
             </select>
         </div>
+    </div>
+    <hr/>
+    <div id="map" class="seat-map" style="display: none">
+        <label class="x" onclick="map()">x</label>
+        <div class="blackboard">Blackboard</div>
+    </div>
+
+    <div id="backGround">
 
     </div>
 
-    <hr/>
-
-
-    <script type="text/javascript">
-
-        d3.json("data/test.json").then(function(json) {
-
-            var names = new Array();
-            var num = 0;
-            var j = 1;
-
-            // Convert json to d3-ez data format
-            var data = d3.nest()
-                .key(function(d) {
-                    return d.user;
-                }).entries(json)
-                .map(function(obj) {
-                    var name = obj.key;
-                    names.push([name]);
-                    num ++;
-                    var students = obj.values[0];
-                    return students;
-                });
-
-            for (var i = 0; i < names.length; i++) {
-
-                var current = data[i]['current_task'];
-                var student = data[i]['activities'];
-                var taskNames = new Array();
-                for (var t = 1; t <= student.length; t++){
-                    taskNames.push([t]);
-                }
-                var activities = d3.nest()
-                    .key(function(d) {
-                        return d.task;
-                    }).entries(student)
-                    .map(function(obj) {
-                        var rec = obj.values[0];
-                        var taskName = rec.task;
-                        var taskIndex = "T" + j;
-                        var time = rec.t;
-                        var status = rec.p;
-                        var attempt = rec.a;
-                        var defaultTime = 60;
-
-                        if (taskName == current) {    //doing
-                            var values = {
-                                key: taskIndex,
-                                values: [
-                                    { key: "failed", value: 0 },
-                                    { key: "completed", value: 0 },
-                                    { key: "undone", value: 0 },
-                                    { key: "doing", value: time }
-                                ]
-                            };
-                        } else if (attempt == 0 && time == 0) { //undone
-                            var values = {
-                                key: taskIndex,
-                                values: [
-                                    { key: "failed", value: 0 },
-                                    { key: "completed", value: 0 },
-                                    { key: "undone", value: defaultTime },
-                                    { key: "doing", value: 0 }
-                                ]
-                            };
-                        } else if (status == 0) {   //failed
-                            var values = {  //failed
-                                key: taskIndex,
-                                values: [
-                                    { key: "failed", value: time },
-                                    { key: "completed", value: 0 },
-                                    { key: "undone", value: 0 },
-                                    { key: "doing", value: 0 }
-                                ]
-                            };
-                        } else {    //completed
-                            var values = {
-                                key: taskIndex,
-                                values: [
-                                    { key: "failed", value: 0 },
-                                    { key: "completed", value: time },
-                                    { key: "undone", value: 0 },
-                                    { key: "doing", value: 0 }
-                                ]
-                            };
-                        }
-
-                        j++;
-                        return values;
-                    });
-
-
-                // Create chart base
-                var id = names[i].toString();
-                const colors = ["#E9C6BD", "#D3EACF", "#D7D7D7", "#F3B06E"];
-                const chart = d3.ez.chart.roseChart().colors(colors);
-                const title = d3.ez.component.title().mainText(id).subText("");
-                var myChart = d3.ez()
-                    .width(190)
-                    .height(190)
-                    .chart(chart)
-                    .title(title)
-                    .on("customValueMouseOver", function (d) {
-                        d3.select("#message").text("Task Status: " + d.key + ", Time Spent:" + d.value);
-                    });
-
-                // Add a div
-
-                d3.select('body').append('div')
-                    .attr('id', id)
-                    .attr('class','grid')
-                    .html();
-
-                // Add to page
-                id = "#" + id;
-                d3.select(id)
-                    .datum(activities)
-                    .call(myChart);
-
-            }
-
-        });
-
-    </script>
 </body>
+<!-- Libraries -->
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
+<script>
+    function map(){
+        if(document.getElementById("map").style.display=="none") {
+            document.getElementById("map").style.display="block";
+            $("#backGround").show();
+        } else {
+            document.getElementById('map').style.display="none";
+            $("#backGround").hide();
+        }
+    }
+
+    window.onload = function(){
+        $.ajax({
+            type: 'get',
+            url: 'data/test.json',
+            success: function(response){
+
+                var datasets = new Array();
+                var map = new Array();
+                var dataset = new Array();
+                var data_attempt = new Array();
+                var data_progress = new Array();
+                var colors = new Array();
+                var labels = new Array();
+
+                //get datasets from json
+                $.each(response, function(key, value) {
+                    datasets.push(new Array());
+                    var data = {};
+                    data['user'] = value.user;
+                    data['current_task'] = value.current_task;
+                    data['seat'] = value.seat;
+                    datasets[key].push(data);
+
+                    for(var i = 0; i < value.activities.length; i++) {
+                        var activity = {};
+                        activity['task'] = value.activities[i].task;
+                        activity['progress'] = value.activities[i].p;
+                        activity['attempt'] = value.activities[i].a;
+                        activity['time'] = value.activities[i].t;
+                        datasets[key].push(activity);
+                    }
+                })
+                //console.log(datasets);
+
+                //create map
+                for (var i = 0; i < datasets.length; i++) {
+                    var seat = {};
+                    seat['user'] = datasets[i][0].user;
+                    seat['seat'] = datasets[i][0].seat;
+                    map.push(seat);
+                }
+                //console.log(map[0].seat);
+
+                for (var i = 0; i < map.length; i++){
+                    for (var j = 1; j <= map.length; j++) {
+                        if (map[i].seat == j) {
+                            var newseat = document.createElement("div");
+                            newseat.id = "student" + j + "-seat";
+                            newseat.innerHTML = "Student " + j;
+                            document.getElementById("map").appendChild(newseat);
+                            newseat.setAttribute("class","seat");
+                        }
+                    }
+                }
+
+                //create dataset for chart
+                for (var i = 0; i < datasets.length; i++) {
+                    dataset.push(new Array());
+                    for ( var j = 1; j < datasets[i].length; j++) {
+                        if(datasets[i][j].time == 0 && datasets[i][j].attempt == 0) {
+                            dataset[i].push(60)
+                        } else {
+                            dataset[i].push(datasets[i][j].time)
+                        }
+                    }
+                }
+                //console.log(dataset[1]);
+
+                //create datasets for attempt times
+                for (var i = 0; i < datasets.length; i++) {
+                    data_attempt.push(new Array());
+                    for ( var j = 1; j < datasets[i].length; j++) {
+                        data_attempt[i].push(datasets[i][j].attempt)
+                    }
+                }
+
+                //create datasets for process
+                for (var i = 0; i < datasets.length; i++) {
+                    data_progress.push(new Array());
+                    for ( var j = 1; j < datasets[i].length; j++) {
+                        data_progress[i].push(datasets[i][j].progress)
+                    }
+                }
+
+                var chartColors = window.chartColors;
+                var color = Chart.helpers.color;
+
+                //create colors
+                for (var i = 0; i < datasets.length; i++) {
+                    colors.push(new Array());
+                    for ( var j = 1; j < datasets[i].length; j++) {
+                        if(datasets[i][0].current_task == datasets[i][j].task) {    //current task
+                            colors[i].push(color(chartColors.orange).alpha(0.5).rgbString())
+                        } else if (datasets[i][j].time == 0 && data_attempt[i][j-1] == 0) {     // undone
+                            colors[i].push(color(chartColors.grey).alpha(0.5).rgbString())
+                        } else if (data_progress[i][j-1] == 0) {    //failed
+                            colors[i].push(color(chartColors.red).alpha(0.5).rgbString())
+                        } else {    //succeed
+                            colors[i].push(color(chartColors.green).alpha(0.5).rgbString())
+                        }
+                    }
+                }
+                //console.log(colors);
+
+                // create labels
+                for(var i = 1; i <= datasets[0].length-1; i++) {
+                    labels.push("Task" + i);
+                }
+
+                //create canvas
+                for (var i = 1; i <= datasets.length; i++){
+
+                    var student = "student" + i;
+
+                    var config = {
+                        data: {
+                            datasets: [{
+                                data: dataset[i-1],
+                                backgroundColor: colors[i-1],
+                                label: 'My dataset' // for legend
+                            }],
+                            labels: labels
+                        },
+                        options: {
+                            responsive: true,
+                            legend: {
+                                display: false,
+                                position: "right"
+                            },
+                            title: {
+                                display: true,
+                                text: student
+                            },
+                            scale: {
+                                ticks: {
+                                    beginAtZero: true,
+                                    min: 0,
+                                    stepSize: 15
+                                },
+                                reverse: false
+                            },
+                            animation: {
+                                animateRotate: false,
+                                animateScale: true
+                            }
+                        }
+                    };
+
+                    var newholder = document.createElement("div");
+                    newholder.id = "student" + i + "-holder";
+                    document.getElementById("body").appendChild(newholder);
+                    newholder.setAttribute("class","holder");
+
+                    var newCanvas = document.createElement("canvas");
+                    newCanvas.id = "student" + i;
+                    newCanvas.width = 180;
+                    newCanvas.height = 180;
+                    document.getElementById("student" + i + "-holder").appendChild(newCanvas);
+
+                    var ctx = document.getElementById(student);
+
+                    window.myPolarArea = Chart.PolarArea(ctx, config);
+
+                }
+            }
+        });
+    }
+
+</script>
 </html>

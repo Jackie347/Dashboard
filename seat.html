@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Exercise System</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <style type="text/css">
+        #choiceWindow {
+            display: none;
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            width: 40%;
+            height: 55%;
+            padding: 20px;
+            border: 3px solid #ccc;
+            background-color: white;
+            z-index:    2;
+            overflow: auto;
+        }
+        #backGround {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 1100px;
+            background-color: black;
+            z-index:1;
+            -moz-opacity: 0.8;
+            opacity:.80;
+            filter: alpha(opacity=88);
+        }
+        #x:hover {
+            cursor: pointer;
+            color: rgb(55,198,192);
+        }
+        .title {
+            text-align: center;
+            font-size: 20px;
+            margin: 20px;
+        }
+        .seat-map{
+            margin: 10px 10px;
+        }
+        .blackboard{
+            margin: 10px auto;
+            text-align: center;
+            width: 20%;
+            height: 15%;
+            background-color: #e9e9e9;
+        }
+        .seat {
+            display: inline-block;
+            width: 17%;
+            height: 10%;
+            margin: 5px;
+            text-align: center;
+            background-color: #e9e9e9;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+    <h4 style="display: inline;">This is the java exercise system</h4>
+    <div style="float: right;">Student 1</div>
+    <br><br>
+    <button id="btn" class="btn-primary">Click to select your seat</button>
+
+    <div id="choiceWindow">
+        <label id="x" style="position: absolute; top: 2px; left: 95%; font-size: 25px;">x</label>
+        <div class="title">Please select your seat in the lab.</div>
+        <div class="seat-map">
+            <div class="blackboard">Blackboard</div>
+            <div class="seat" onclick="alert('You have selected seat 1')">1</div>
+            <div class="seat" onclick="alert('You have selected seat 2')">2</div>
+            <div class="seat" onclick="alert('You have selected seat 3')">3</div>
+            <div class="seat" onclick="alert('You have selected seat 4')">4</div>
+            <div class="seat" onclick="alert('You have selected seat 5')">5</div>
+            <div class="seat" onclick="alert('You have selected seat 6')">6</div>
+            <div class="seat" onclick="alert('You have selected seat 7')">7</div>
+            <div class="seat" onclick="alert('You have selected seat 8')">8</div>
+            <div class="seat" onclick="alert('You have selected seat 9')">9</div>
+            <div class="seat" onclick="alert('You have selected seat 10')">10</div>
+            <div class="seat" onclick="alert('You have selected seat 11')">11</div>
+            <div class="seat" onclick="alert('You have selected seat 12')">12</div>
+            <div class="seat" onclick="alert('You have selected seat 13')">13</div>
+            <div class="seat" onclick="alert('You have selected seat 14')">14</div>
+            <div class="seat" onclick="alert('You have selected seat 15')">15</div>
+            <div class="seat" onclick="alert('You have selected seat 16')">16</div>
+            <div class="seat" onclick="alert('You have selected seat 17')">17</div>
+            <div class="seat" onclick="alert('You have selected seat 18')">18</div>
+            <div class="seat" onclick="alert('You have selected seat 19')">19</div>
+            <div class="seat" onclick="alert('You have selected seat 20')">20</div>
+            <div class="seat" onclick="alert('You have selected seat 21')">21</div>
+            <div class="seat" onclick="alert('You have selected seat 22')">22</div>
+            <div class="seat" onclick="alert('You have selected seat 23')">23</div>
+            <div class="seat" onclick="alert('You have selected seat 24')">24</div>
+            <div class="seat" onclick="alert('You have selected seat 25')">25</div>
+            <div class="seat" onclick="alert('You have selected seat 26')">26</div>
+            <div class="seat" onclick="alert('You have selected seat 27')">27</div>
+            <div class="seat" onclick="alert('You have selected seat 28')">28</div>
+            <div class="seat" onclick="alert('You have selected seat 29')">29</div>
+            <div class="seat" onclick="alert('You have selected seat 30')">30</div>
+        </div>
+    </div>
+
+    <div id="backGround">
+
+    </div>
+</div>
+</body>
+
+<!-- Libraries -->
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#btn").click(function(){
+            $("#choiceWindow").slideDown(300);
+            $("#backGround").show();
+
+        });
+
+        $("#x").click(function(){
+            $("#choiceWindow").slideUp(300);
+            $("#backGround").hide();
+        })
+
+    });
+</script>
+
+</html>
