@@ -6,7 +6,7 @@
     "activities": [
       {
         "task": "DataSelection2",
-        "p": 0,
+        "p": 1,
         "a": 6,
         "t": 75
       },
@@ -24,7 +24,7 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
@@ -67,7 +67,7 @@
       },
       {
         "task": "DataSelection3",
-        "p": 0,
+        "p": 1,
         "a": 9,
         "t": 90
       },
@@ -91,7 +91,7 @@
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
-        "p": 0,
+        "p": 1,
         "a": 1,
         "t": 40
       },
@@ -116,13 +116,13 @@
     "activities": [
       {
         "task": "DataSelection2",
-        "p": 0,
+        "p": 1,
         "a": 6,
         "t": 75
       },
       {
         "task": "DataSelection3",
-        "p": 1,
+        "p": 0,
         "a": 9,
         "t": 90
       },
@@ -134,7 +134,7 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 60
       },
@@ -171,7 +171,7 @@
     "activities": [
       {
         "task": "DataSelection2",
-        "p": 0,
+        "p": 1,
         "a": 6,
         "t": 75
       },
@@ -179,7 +179,7 @@
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 50
       },
       {
         "task": "SELECT-FROM_question5",
@@ -197,7 +197,7 @@
         "task": "DataSelection7",
         "p": 1,
         "a": 8,
-        "t": 80
+        "t": 40
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
@@ -228,13 +228,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 65
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 50
       },
       {
         "task": "SELECT-FROM_question5",
@@ -251,8 +251,8 @@
       {
         "task": "DataSelection7",
         "p": 0,
-        "a": 8,
-        "t": 80
+        "a": 0,
+        "t": 0
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
@@ -283,17 +283,17 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 45
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 75
       },
       {
         "task": "SELECT-FROM_question5",
-        "p": 0,
+        "p": 1,
         "a": 5,
         "t": 57
       },
@@ -306,8 +306,8 @@
       {
         "task": "DataSelection7",
         "p": 0,
-        "a": 8,
-        "t": 80
+        "a": 0,
+        "t": 0
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
@@ -338,13 +338,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 65
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 45
       },
       {
         "task": "SELECT-FROM_question5",
@@ -361,8 +361,8 @@
       {
         "task": "DataSelection7",
         "p": 0,
-        "a": 8,
-        "t": 70
+        "a": 0,
+        "t": 0
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
@@ -393,13 +393,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 65
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 55
       },
       {
         "task": "SELECT-FROM_question5",
@@ -416,8 +416,8 @@
       {
         "task": "DataSelection7",
         "p": 0,
-        "a": 8,
-        "t": 80
+        "a": 0,
+        "t": 0
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
@@ -471,8 +471,8 @@
       {
         "task": "DataSelection7",
         "p": 0,
-        "a": 8,
-        "t": 80
+        "a": 0,
+        "t": 0
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
@@ -558,13 +558,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 45
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 55
       },
       {
         "task": "SELECT-FROM_question5",
@@ -574,13 +574,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 1,
+        "p": 0,
         "a": 8,
         "t": 70
       },
@@ -619,7 +619,7 @@
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 70
       },
       {
         "task": "SELECT-FROM_question5",
@@ -668,13 +668,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 60
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 65
       },
       {
         "task": "SELECT-FROM_question5",
@@ -692,7 +692,7 @@
         "task": "DataSelection7",
         "p": 0,
         "a": 0,
-        "t": 20
+        "t": 0
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
@@ -729,7 +729,7 @@
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 70
       },
       {
         "task": "SELECT-FROM_question5",
@@ -746,8 +746,8 @@
       {
         "task": "DataSelection7",
         "p": 0,
-        "a": 8,
-        "t": 80
+        "a": 0,
+        "t": 0
       },
       {
         "task": "SELECT-FROM-WHERE_question9",
@@ -778,13 +778,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 70
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 55
       },
       {
         "task": "SELECT-FROM_question5",
@@ -849,13 +849,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -904,13 +904,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -959,13 +959,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1014,13 +1014,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1069,13 +1069,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1124,7 +1124,7 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
@@ -1163,13 +1163,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 55
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 65
       },
       {
         "task": "SELECT-FROM_question5",
@@ -1179,13 +1179,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1218,13 +1218,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 45
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 65
       },
       {
         "task": "SELECT-FROM_question5",
@@ -1234,13 +1234,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1273,13 +1273,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 45
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 70
       },
       {
         "task": "SELECT-FROM_question5",
@@ -1289,13 +1289,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1328,13 +1328,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 65
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 55
       },
       {
         "task": "SELECT-FROM_question5",
@@ -1344,13 +1344,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1383,13 +1383,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 65
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 55
       },
       {
         "task": "SELECT-FROM_question5",
@@ -1399,13 +1399,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1454,13 +1454,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1493,13 +1493,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 55
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 65
       },
       {
         "task": "SELECT-FROM_question5",
@@ -1509,13 +1509,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1564,13 +1564,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
@@ -1603,13 +1603,13 @@
         "task": "DataSelection2",
         "p": 1,
         "a": 6,
-        "t": 80
+        "t": 55
       },
       {
         "task": "DataSelection3",
         "p": 1,
         "a": 9,
-        "t": 90
+        "t": 65
       },
       {
         "task": "SELECT-FROM_question5",
@@ -1619,13 +1619,13 @@
       },
       {
         "task": "SAESelectingMultipleAttributes",
-        "p": 0,
+        "p": 1,
         "a": 2,
         "t": 50
       },
       {
         "task": "DataSelection7",
-        "p": 0,
+        "p": 1,
         "a": 8,
         "t": 40
       },
